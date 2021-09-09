@@ -65,7 +65,7 @@ deploying the application in different environments.
 
 ### Author
  - Abdirasulov Javohir 
- - Telegram: https://t.me/ilz10
+ - Telegram: https://t.me/JavohirSD
  - Gmail:    alienware7x@gmail.com 
 
 
