@@ -48,6 +48,11 @@ Yii2-Real Template requires [Apache](https://apache.org/) or [Ngnix](https://ngn
 2. Import or create database template (`yii2real_db.sql`)
 4. Enjoy.
 
+### Installation
+
+Admin panel: `example.com/driver`
+Default login and password: `superdriver`
+
 ### For manually installing or updating extensions
 Via composer:
 ```sh
