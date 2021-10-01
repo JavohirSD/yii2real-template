@@ -1,14 +1,7 @@
-<p align="center">
-    <a href="https://github.com/yiisoft" target="_blank">
-        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
-    </a>
-    <h1 align="center">Yii 2 Advanced Project Template</h1>
-    <br>
-</p>
 
-Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-developing complex Web applications with multiple tiers.
+# yii2real-template
 
+[![N|Solid](https://camo.githubusercontent.com/bc297786b444bcfc0e70d18bdee8c503f7399e47/68747470733a2f2f7777772e7969696672616d65776f726b2e636f6d2f66696c65732f6c6f676f2f7969692e706e67)](https://nodesource.com/products/nsolid)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -70,25 +63,12 @@ $ composer require codemix/yii2-localeurls
 $ composer require --prefer-dist yiisoft/yii2-imagine
 ```
 ### Additional information
-The template includes three main part:
-Frontend, Backend and API modules.
->>>>>>> c5d30ad603ec1e20c2271d08be2e46c240563bb0
+The template includes three tiers: front end, back end, console, and api each of which
+is a separate Yii application.
 
 The template is designed to work in a team development environment. It supports
 deploying the application in different environments.
 
-<<<<<<< HEAD
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
-=======
-### Author
- - Abdirasulov Javohir 
- - Telegram: https://t.me/JavohirSD
- - Gmail:    alienware7x@gmail.com 
->>>>>>> c5d30ad603ec1e20c2271d08be2e46c240563bb0
-
-[![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![build](https://github.com/yiisoft/yii2-app-advanced/workflows/build/badge.svg)](https://github.com/yiisoft/yii2-app-advanced/actions?query=workflow%3Abuild)
 
 DIRECTORY STRUCTURE
 -------------------
@@ -127,3 +107,15 @@ frontend
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
+
+
+### Author
+ - Abdirasulov Javohir 
+ - Telegram: https://t.me/JavohirSD
+ - Gmail:    alienware7x@gmail.com 
+
+
+License
+----
+
+**Free and open source project template for everyone, Good luck!**
