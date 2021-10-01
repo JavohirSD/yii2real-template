@@ -18,7 +18,7 @@
                             <!-- <h3>Demo:</h3> -->
                             <div class="docs-demo">
                                 <div class="img-container">
-                                    <img name="image" id="image" src="/frontend/web/uploads/picture.jpg" alt="Picture">
+                                    <img name="image" id="image" src="/uploads/holder.png" alt="Picture">
                                 </div>
                             </div>
                         </div>

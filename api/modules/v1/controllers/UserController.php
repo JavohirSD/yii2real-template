@@ -4,11 +4,16 @@ namespace api\modules\v1\controllers;
 
 use api\common\controllers\AppController;
 use common\models\LoginForm;
+use common\models\User;
 
 
 class UserController extends AppController
 {
+    public $modelClass = User::class;
 
+    public function actionTest(){
+        return ['success'=>true];
+    }
 
     public function actionLogin()
     {

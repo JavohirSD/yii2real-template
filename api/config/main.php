@@ -65,6 +65,11 @@ return [
             'rules' => [
                 // Begin v1 url rules
                 'GET login' => 'v1/user/login',
+                'GET v1/news/test'     => 'v1/news/test',
+                'POST v1/user/auth'    => 'v1/user/login',
+                // METHOD VERSION/CONTROLLER/ALIAS => VERSION/CONTROLLER/ACTION
+
+                // ... add other v1 api url rules here
                 ['class' => 'yii\rest\UrlRule',
                      'controller' => [
                          'v1/news',
@@ -72,16 +77,8 @@ return [
                         // ... add other controllers here
                     ],
                 ],
-                'OPTIONS v1/news/test' => 'v1/news/test',
-                'GET v1/news/test'     => 'v1/news/test',
+            ],// End of v1 url rules
 
-                'OPTIONS v1/auth' => 'v1/user/login',
-                'POST v1/auth'    => 'v1/user/login',
-                // End of v1 url rules
-
-
-                // ... add other api version url rules here []
-            ],
         ],
     ],
     'params' => $params,

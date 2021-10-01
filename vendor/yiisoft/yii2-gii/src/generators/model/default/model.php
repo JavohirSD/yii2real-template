@@ -101,6 +101,11 @@ class <?= $className ?> extends <?= '\\' . ltrim($generator->baseClass, '\\') . 
         return new <?= $queryClassFullName ?>(get_called_class());
     }
 
+    public function afterFind()
+    {
+        $this->created_date = date('d.m.Y H:i:s', strtotime($this->created_date));
+    }
+
     public function upload()
     {
         if ($this->validate() && $this->image != null) {

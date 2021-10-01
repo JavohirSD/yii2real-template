@@ -87,7 +87,7 @@ $this->registerJs($scr);
                     <?= $form->field($model, 'author')->textInput(['maxlength' => true]) ?>
 
                     <label class="control-label" for="Seo[icon]">Rasm1 tanlash</label>
-                    <img id="thumb2" src="/frontend/web/uploads/<?php if($model->icon!=null) echo $model->icon; else echo 'holder.png'; ?>" width="270px" class="thumbr"/>
+                    <img id="thumb2" src="/uploads/<?php if($model->icon!=null) echo $model->icon; else echo 'holder.png'; ?>" width="270px" class="thumbr"/>
                     <?= $form->field($model, 'icon')->fileInput(['style'=>'display:none'])->label(false) ?>
 
 <!--                    <label class="control-label" for="Seo[og_image]">Rasm1 tanlash</label>-->

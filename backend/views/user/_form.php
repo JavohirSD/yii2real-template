@@ -51,7 +51,7 @@ $this->registerJs($scr);
 
 
                     <label class="control-label" for="SignupForm[image]">Rasm tanlash</label>
-                    <img id="thumb" src="/frontend/web/uploads/<?php if($model->image!=null) echo $model->image; else echo 'holder.png'; ?>" width="270px" class="thumbr"/>
+                    <img id="thumb" src="/uploads/<?php if($model->image!=null) echo $model->image; else echo 'holder.png'; ?>" width="270px" class="thumbr"/>
                     <?= $form->field($model, 'image')->fileInput(['style'=>'display:none'])->label(false) ?>
                     <input type="hidden" name="<?=Yii::$app->controller->action->id=='create'?'SignupForm[crop_image]':'User[crop_image]'?>" id="crop_image" value="">
                     <button style="display: none" type="button" id="crop_modal" class="btn btn-default" data-toggle="modal" data-target="#modal-xl">

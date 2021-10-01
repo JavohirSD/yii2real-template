@@ -18,7 +18,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="img-container">
-                        <img id="image" style="width: 800px;" src="/frontend/web/uploads/picture.jpg" alt="Picture">
+                        <img id="image" style="width: 800px;" src="/uploads/holder.png" alt="Picture">
                     </div>
                 </div>
                 <div class="modal-footer">

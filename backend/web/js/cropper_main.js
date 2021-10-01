@@ -1,8 +1,26 @@
 var controller_id = window.location.pathname.split("/")[2];
+var model_id = window.location.href.split("=")[1];
 $('#thumb').click(function(){ $('#'+controller_id+'-image').trigger('click'); });
 $(document).on('change', '#'+controller_id+'-image', function() {
   thumb.src=URL.createObjectURL(event.target.files[0]);
   $('#modal-xl').modal('show'); // with image input  only
+  if($("#thumb").attr("src") != null) $("#rmfile").show();
+});
+
+
+$('#rmfile').click(function(){
+    $("#thumb").attr("src","/uploads/holder.png");
+      $.ajax({
+         url: "/driver/"+controller_id+"/rmfile",
+         type: 'POST',
+         data: {
+               id: model_id,
+           _csrf : yii.getCsrfToken()
+          },
+        success: function () {
+            $(this).hide();
+          }
+      });
 });
 
 

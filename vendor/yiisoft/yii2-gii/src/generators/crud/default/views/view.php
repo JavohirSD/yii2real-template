@@ -40,10 +40,19 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= "<?= " ?>DetailView::widget([
         'model' => $model,
         'attributes' => [
+            [
+                'attribute' => 'image',
+                'format'    => 'raw',
+                'value' =>  function($model){
+                    $image = $model->image??'holder.png';
+                    return "<a href='/uploads/".$image."' target='_blank'>
+                           <img src='/uploads/".$image."' width='200'></a>";
+                },
+            ],
 <?php
 if (($tableSchema = $generator->getTableSchema()) === false) {
     foreach ($generator->getColumnNames() as $name) {
-        if($name=='status') continue;
+        if($name=='status' || $name=='image') continue;
         echo "            '" . $name . "',\n";
     }
 } else {

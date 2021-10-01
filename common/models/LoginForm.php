@@ -35,9 +35,9 @@ class LoginForm extends Model
 
     public function scenarios()
     {
-        return [
-            self::SCENARIO_API_LOGIN => ['username', 'password'],
-        ];
+        $scenarios = parent::scenarios();
+        $scenarios[self::SCENARIO_API_LOGIN] = ['username', 'password'];
+        return $scenarios;
     }
 
     /**

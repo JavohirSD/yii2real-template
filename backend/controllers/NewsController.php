@@ -104,14 +104,21 @@ class NewsController extends AppController
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
-
-       //  $model = $this->findModel($id);
-       //  if(unlink(Yii::getAlias('@frontend') . '/web/uploads/' . $model->image)) {
-       //    $model->delete();
-       //  }
-
+       // $this->findModel($id)->delete();
+         $model = $this->findModel($id);
+         if(unlink(Yii::getAlias('@frontend') . '/web/uploads/' . $model->image)) {
+           $model->delete();
+         }
         return $this->redirect(['index']);
+    }
+
+    public function actionRmfile(){
+          $id = Yii::$app->request->post()['id'];
+          $model = $this->findModel($id);
+          if(unlink(Yii::getAlias('@frontend') . '/web/uploads/' . $model->image)) {
+              $model->image = null;
+          }
+          return $model->save();
     }
 
     /**

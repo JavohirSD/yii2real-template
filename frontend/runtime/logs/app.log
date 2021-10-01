@@ -1,0 +1,1730 @@
+2021-08-28 22:26:32 [127.0.0.1][-][h2hkdh0df68fok7mlc18lc236b9dtucd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/imageName.png". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('images/imageNam...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-08-28 22:26:32 [127.0.0.1][-][h2hkdh0df68fok7mlc18lc236b9dtucd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_language' => 'ebeb42fa576ea61f679ce3db9d8a9bf196b7fe3043640349c0ee25db6a385ef0a:2:{i:0;s:9:\"_language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'h2hkdh0df68fok7mlc18lc236b9dtucd'
+    '_csrf-frontend' => 'c60ce76435eccddd9cd44e89ef16ef8ebaa8a242c528b9b9dbf3297dd1c359e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"plWaXPPFIrEMLJrXYFjCVKIxAgvDJeO0\";}'
+    '_csrf-backend' => '6483f315de36fd1c9be945bf044eb1607d56b8f3a09e2db26e2ec75bb9e66cbba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"njQNrkcnjG_ChbFUR9Y787KN3CL-Gn3k\";}'
+    'advanced-backend' => 'qduqi2mgh5d8b3063mfcnnfi4m73dvqe'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_language=ebeb42fa576ea61f679ce3db9d8a9bf196b7fe3043640349c0ee25db6a385ef0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=h2hkdh0df68fok7mlc18lc236b9dtucd; _csrf-frontend=c60ce76435eccddd9cd44e89ef16ef8ebaa8a242c528b9b9dbf3297dd1c359e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22plWaXPPFIrEMLJrXYFjCVKIxAgvDJeO0%22%3B%7D; _csrf-backend=6483f315de36fd1c9be945bf044eb1607d56b8f3a09e2db26e2ec75bb9e66cbba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22njQNrkcnjG_ChbFUR9Y787KN3CL-Gn3k%22%3B%7D; advanced-backend=qduqi2mgh5d8b3063mfcnnfi4m73dvqe'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '58326'
+    'REDIRECT_URL' => '/frontend/web/images/imageName.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/imageName.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1630171592.609
+    'REQUEST_TIME' => 1630171592
+    'argv' => []
+    'argc' => 0
+]
+2021-08-28 22:27:14 [127.0.0.1][-][h2hkdh0df68fok7mlc18lc236b9dtucd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/imageName.png". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('images/imageNam...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-08-28 22:27:14 [127.0.0.1][-][h2hkdh0df68fok7mlc18lc236b9dtucd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_language' => 'ebeb42fa576ea61f679ce3db9d8a9bf196b7fe3043640349c0ee25db6a385ef0a:2:{i:0;s:9:\"_language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'h2hkdh0df68fok7mlc18lc236b9dtucd'
+    '_csrf-frontend' => 'c60ce76435eccddd9cd44e89ef16ef8ebaa8a242c528b9b9dbf3297dd1c359e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"plWaXPPFIrEMLJrXYFjCVKIxAgvDJeO0\";}'
+    '_csrf-backend' => '6483f315de36fd1c9be945bf044eb1607d56b8f3a09e2db26e2ec75bb9e66cbba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"njQNrkcnjG_ChbFUR9Y787KN3CL-Gn3k\";}'
+    'advanced-backend' => 'qduqi2mgh5d8b3063mfcnnfi4m73dvqe'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_language=ebeb42fa576ea61f679ce3db9d8a9bf196b7fe3043640349c0ee25db6a385ef0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=h2hkdh0df68fok7mlc18lc236b9dtucd; _csrf-frontend=c60ce76435eccddd9cd44e89ef16ef8ebaa8a242c528b9b9dbf3297dd1c359e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22plWaXPPFIrEMLJrXYFjCVKIxAgvDJeO0%22%3B%7D; _csrf-backend=6483f315de36fd1c9be945bf044eb1607d56b8f3a09e2db26e2ec75bb9e66cbba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22njQNrkcnjG_ChbFUR9Y787KN3CL-Gn3k%22%3B%7D; advanced-backend=qduqi2mgh5d8b3063mfcnnfi4m73dvqe'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '50280'
+    'REDIRECT_URL' => '/frontend/web/images/imageName.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/imageName.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1630171634.185
+    'REQUEST_TIME' => 1630171634
+    'argv' => []
+    'argc' => 0
+]
+2021-08-28 22:28:49 [127.0.0.1][-][h2hkdh0df68fok7mlc18lc236b9dtucd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/imageName.png". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('images/imageNam...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-08-28 22:28:49 [127.0.0.1][-][h2hkdh0df68fok7mlc18lc236b9dtucd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_language' => 'ebeb42fa576ea61f679ce3db9d8a9bf196b7fe3043640349c0ee25db6a385ef0a:2:{i:0;s:9:\"_language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'h2hkdh0df68fok7mlc18lc236b9dtucd'
+    '_csrf-frontend' => 'c60ce76435eccddd9cd44e89ef16ef8ebaa8a242c528b9b9dbf3297dd1c359e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"plWaXPPFIrEMLJrXYFjCVKIxAgvDJeO0\";}'
+    '_csrf-backend' => '6483f315de36fd1c9be945bf044eb1607d56b8f3a09e2db26e2ec75bb9e66cbba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"njQNrkcnjG_ChbFUR9Y787KN3CL-Gn3k\";}'
+    'advanced-backend' => 'qduqi2mgh5d8b3063mfcnnfi4m73dvqe'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_language=ebeb42fa576ea61f679ce3db9d8a9bf196b7fe3043640349c0ee25db6a385ef0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=h2hkdh0df68fok7mlc18lc236b9dtucd; _csrf-frontend=c60ce76435eccddd9cd44e89ef16ef8ebaa8a242c528b9b9dbf3297dd1c359e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22plWaXPPFIrEMLJrXYFjCVKIxAgvDJeO0%22%3B%7D; _csrf-backend=6483f315de36fd1c9be945bf044eb1607d56b8f3a09e2db26e2ec75bb9e66cbba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22njQNrkcnjG_ChbFUR9Y787KN3CL-Gn3k%22%3B%7D; advanced-backend=qduqi2mgh5d8b3063mfcnnfi4m73dvqe'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '59353'
+    'REDIRECT_URL' => '/frontend/web/images/imageName.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/imageName.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1630171729.67
+    'REQUEST_TIME' => 1630171729
+    'argv' => []
+    'argc' => 0
+]
+2021-08-28 22:29:05 [127.0.0.1][-][h2hkdh0df68fok7mlc18lc236b9dtucd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/imageName.png". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('images/imageNam...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-08-28 22:29:05 [127.0.0.1][-][h2hkdh0df68fok7mlc18lc236b9dtucd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_language' => 'ebeb42fa576ea61f679ce3db9d8a9bf196b7fe3043640349c0ee25db6a385ef0a:2:{i:0;s:9:\"_language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'h2hkdh0df68fok7mlc18lc236b9dtucd'
+    '_csrf-frontend' => 'c60ce76435eccddd9cd44e89ef16ef8ebaa8a242c528b9b9dbf3297dd1c359e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"plWaXPPFIrEMLJrXYFjCVKIxAgvDJeO0\";}'
+    '_csrf-backend' => '1c12b7e46ab745b0f1f1258a77edbacc8f12464179babb3cdf3b68245fa9b847a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"SKwNGwaiyepmEN_BI-6lMoapxYZ8jUUk\";}'
+    'advanced-backend' => 'qqjb5fd8or35e41vk2c8ppjjl218h06h'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_language=ebeb42fa576ea61f679ce3db9d8a9bf196b7fe3043640349c0ee25db6a385ef0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=h2hkdh0df68fok7mlc18lc236b9dtucd; _csrf-frontend=c60ce76435eccddd9cd44e89ef16ef8ebaa8a242c528b9b9dbf3297dd1c359e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22plWaXPPFIrEMLJrXYFjCVKIxAgvDJeO0%22%3B%7D; _csrf-backend=1c12b7e46ab745b0f1f1258a77edbacc8f12464179babb3cdf3b68245fa9b847a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22SKwNGwaiyepmEN_BI-6lMoapxYZ8jUUk%22%3B%7D; advanced-backend=qqjb5fd8or35e41vk2c8ppjjl218h06h'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '50280'
+    'REDIRECT_URL' => '/frontend/web/images/imageName.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/imageName.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1630171745.775
+    'REQUEST_TIME' => 1630171745
+    'argv' => []
+    'argc' => 0
+]
+2021-08-28 22:29:18 [127.0.0.1][-][h2hkdh0df68fok7mlc18lc236b9dtucd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/imageName.png". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('images/imageNam...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-08-28 22:29:18 [127.0.0.1][-][h2hkdh0df68fok7mlc18lc236b9dtucd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_language' => 'ebeb42fa576ea61f679ce3db9d8a9bf196b7fe3043640349c0ee25db6a385ef0a:2:{i:0;s:9:\"_language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'h2hkdh0df68fok7mlc18lc236b9dtucd'
+    '_csrf-frontend' => 'c60ce76435eccddd9cd44e89ef16ef8ebaa8a242c528b9b9dbf3297dd1c359e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"plWaXPPFIrEMLJrXYFjCVKIxAgvDJeO0\";}'
+    '_csrf-backend' => 'a17d029eee34f691f8ae490df527c67102c2b6e641a7844e2e7a10ca64c4f4f9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"r5RJBg8ypU7v5s5n8y5De72VgOPWOt38\";}'
+    'advanced-backend' => '48hl19t30dg53ljvu2pgpc5b34tabg4o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_language=ebeb42fa576ea61f679ce3db9d8a9bf196b7fe3043640349c0ee25db6a385ef0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=h2hkdh0df68fok7mlc18lc236b9dtucd; _csrf-frontend=c60ce76435eccddd9cd44e89ef16ef8ebaa8a242c528b9b9dbf3297dd1c359e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22plWaXPPFIrEMLJrXYFjCVKIxAgvDJeO0%22%3B%7D; _csrf-backend=a17d029eee34f691f8ae490df527c67102c2b6e641a7844e2e7a10ca64c4f4f9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22r5RJBg8ypU7v5s5n8y5De72VgOPWOt38%22%3B%7D; advanced-backend=48hl19t30dg53ljvu2pgpc5b34tabg4o'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '54563'
+    'REDIRECT_URL' => '/frontend/web/images/imageName.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/imageName.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1630171758.934
+    'REQUEST_TIME' => 1630171758
+    'argv' => []
+    'argc' => 0
+]
+2021-08-28 22:30:00 [127.0.0.1][-][h2hkdh0df68fok7mlc18lc236b9dtucd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/imageName.png". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('images/imageNam...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-08-28 22:30:00 [127.0.0.1][-][h2hkdh0df68fok7mlc18lc236b9dtucd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_language' => 'ebeb42fa576ea61f679ce3db9d8a9bf196b7fe3043640349c0ee25db6a385ef0a:2:{i:0;s:9:\"_language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'h2hkdh0df68fok7mlc18lc236b9dtucd'
+    '_csrf-frontend' => 'c60ce76435eccddd9cd44e89ef16ef8ebaa8a242c528b9b9dbf3297dd1c359e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"plWaXPPFIrEMLJrXYFjCVKIxAgvDJeO0\";}'
+    '_csrf-backend' => 'a17d029eee34f691f8ae490df527c67102c2b6e641a7844e2e7a10ca64c4f4f9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"r5RJBg8ypU7v5s5n8y5De72VgOPWOt38\";}'
+    'advanced-backend' => '48hl19t30dg53ljvu2pgpc5b34tabg4o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_language=ebeb42fa576ea61f679ce3db9d8a9bf196b7fe3043640349c0ee25db6a385ef0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=h2hkdh0df68fok7mlc18lc236b9dtucd; _csrf-frontend=c60ce76435eccddd9cd44e89ef16ef8ebaa8a242c528b9b9dbf3297dd1c359e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22plWaXPPFIrEMLJrXYFjCVKIxAgvDJeO0%22%3B%7D; _csrf-backend=a17d029eee34f691f8ae490df527c67102c2b6e641a7844e2e7a10ca64c4f4f9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22r5RJBg8ypU7v5s5n8y5De72VgOPWOt38%22%3B%7D; advanced-backend=48hl19t30dg53ljvu2pgpc5b34tabg4o'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '61332'
+    'REDIRECT_URL' => '/frontend/web/images/imageName.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/imageName.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1630171800.354
+    'REQUEST_TIME' => 1630171800
+    'argv' => []
+    'argc' => 0
+]
+2021-08-28 22:30:10 [127.0.0.1][-][h2hkdh0df68fok7mlc18lc236b9dtucd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/imageName.png". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('images/imageNam...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-08-28 22:30:10 [127.0.0.1][-][h2hkdh0df68fok7mlc18lc236b9dtucd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_language' => 'ebeb42fa576ea61f679ce3db9d8a9bf196b7fe3043640349c0ee25db6a385ef0a:2:{i:0;s:9:\"_language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'h2hkdh0df68fok7mlc18lc236b9dtucd'
+    '_csrf-frontend' => 'c60ce76435eccddd9cd44e89ef16ef8ebaa8a242c528b9b9dbf3297dd1c359e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"plWaXPPFIrEMLJrXYFjCVKIxAgvDJeO0\";}'
+    '_csrf-backend' => '61bd8862c01b3b5f55637c1694e8ef64022f676d7b88b2ceedbd40faa262030ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"E0NWwZA65fJ4BVuSHpfWnwRzZiY8iyQO\";}'
+    'advanced-backend' => 'ma97gjqdjjg1p25vvkr6mk3qog1lmqp4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_language=ebeb42fa576ea61f679ce3db9d8a9bf196b7fe3043640349c0ee25db6a385ef0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=h2hkdh0df68fok7mlc18lc236b9dtucd; _csrf-frontend=c60ce76435eccddd9cd44e89ef16ef8ebaa8a242c528b9b9dbf3297dd1c359e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22plWaXPPFIrEMLJrXYFjCVKIxAgvDJeO0%22%3B%7D; _csrf-backend=61bd8862c01b3b5f55637c1694e8ef64022f676d7b88b2ceedbd40faa262030ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22E0NWwZA65fJ4BVuSHpfWnwRzZiY8iyQO%22%3B%7D; advanced-backend=ma97gjqdjjg1p25vvkr6mk3qog1lmqp4'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '63604'
+    'REDIRECT_URL' => '/frontend/web/images/imageName.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/imageName.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1630171810.589
+    'REQUEST_TIME' => 1630171810
+    'argv' => []
+    'argc' => 0
+]
+2021-09-15 15:46:33 [127.0.0.1][-][qq4ahctva5e37pa1r39g7o1ue28usv2a][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/imageName.png". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('images/imageNam...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-09-15 15:46:33 [127.0.0.1][-][qq4ahctva5e37pa1r39g7o1ue28usv2a][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'pu19bnhsoch2s6tacm15ht904oljk6hc'
+    '_csrf-backend' => '7b56ad0b7f059b61227c150c8408b69ab7bb11d640b90309a4b512be47460e4aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"m-Y8xePjLNdNfuc1Hbwdg7NRDakE0alu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-backend=pu19bnhsoch2s6tacm15ht904oljk6hc; _csrf-backend=7b56ad0b7f059b61227c150c8408b69ab7bb11d640b90309a4b512be47460e4aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22m-Y8xePjLNdNfuc1Hbwdg7NRDakE0alu%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '63872'
+    'REDIRECT_URL' => '/frontend/web/images/imageName.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/imageName.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631702793.422
+    'REQUEST_TIME' => 1631702793
+    'argv' => []
+    'argc' => 0
+]
+2021-09-15 15:46:39 [127.0.0.1][-][qq4ahctva5e37pa1r39g7o1ue28usv2a][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/imageName.png". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('images/imageNam...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-09-15 15:46:39 [127.0.0.1][-][qq4ahctva5e37pa1r39g7o1ue28usv2a][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'pu19bnhsoch2s6tacm15ht904oljk6hc'
+    '_csrf-backend' => '7b56ad0b7f059b61227c150c8408b69ab7bb11d640b90309a4b512be47460e4aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"m-Y8xePjLNdNfuc1Hbwdg7NRDakE0alu\";}'
+    'advanced-frontend' => 'qq4ahctva5e37pa1r39g7o1ue28usv2a'
+    '_csrf-frontend' => 'afb33e2dfc26b0a6ec7f0d12a2603d50480c12d83920b1f1a55eaa3455205d99a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nvUuG_rGxJX-naK2X3q0sXsgYBSd4VA-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-backend=pu19bnhsoch2s6tacm15ht904oljk6hc; _csrf-backend=7b56ad0b7f059b61227c150c8408b69ab7bb11d640b90309a4b512be47460e4aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22m-Y8xePjLNdNfuc1Hbwdg7NRDakE0alu%22%3B%7D; advanced-frontend=qq4ahctva5e37pa1r39g7o1ue28usv2a; _csrf-frontend=afb33e2dfc26b0a6ec7f0d12a2603d50480c12d83920b1f1a55eaa3455205d99a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nvUuG_rGxJX-naK2X3q0sXsgYBSd4VA-%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '59842'
+    'REDIRECT_URL' => '/frontend/web/images/imageName.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/imageName.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631702799.576
+    'REQUEST_TIME' => 1631702799
+    'argv' => []
+    'argc' => 0
+]
+2021-09-15 15:46:50 [127.0.0.1][-][qq4ahctva5e37pa1r39g7o1ue28usv2a][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/imageName.png". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('images/imageNam...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-09-15 15:46:50 [127.0.0.1][-][qq4ahctva5e37pa1r39g7o1ue28usv2a][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'pu19bnhsoch2s6tacm15ht904oljk6hc'
+    '_csrf-backend' => '7b56ad0b7f059b61227c150c8408b69ab7bb11d640b90309a4b512be47460e4aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"m-Y8xePjLNdNfuc1Hbwdg7NRDakE0alu\";}'
+    'advanced-frontend' => 'qq4ahctva5e37pa1r39g7o1ue28usv2a'
+    '_csrf-frontend' => 'afb33e2dfc26b0a6ec7f0d12a2603d50480c12d83920b1f1a55eaa3455205d99a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nvUuG_rGxJX-naK2X3q0sXsgYBSd4VA-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-backend=pu19bnhsoch2s6tacm15ht904oljk6hc; _csrf-backend=7b56ad0b7f059b61227c150c8408b69ab7bb11d640b90309a4b512be47460e4aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22m-Y8xePjLNdNfuc1Hbwdg7NRDakE0alu%22%3B%7D; advanced-frontend=qq4ahctva5e37pa1r39g7o1ue28usv2a; _csrf-frontend=afb33e2dfc26b0a6ec7f0d12a2603d50480c12d83920b1f1a55eaa3455205d99a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nvUuG_rGxJX-naK2X3q0sXsgYBSd4VA-%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '63051'
+    'REDIRECT_URL' => '/frontend/web/images/imageName.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/imageName.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631702810.831
+    'REQUEST_TIME' => 1631702810
+    'argv' => []
+    'argc' => 0
+]
+2021-09-15 15:49:06 [127.0.0.1][-][qq4ahctva5e37pa1r39g7o1ue28usv2a][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/imageName.png". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('images/imageNam...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-09-15 15:49:06 [127.0.0.1][-][qq4ahctva5e37pa1r39g7o1ue28usv2a][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'pu19bnhsoch2s6tacm15ht904oljk6hc'
+    '_csrf-backend' => '7b56ad0b7f059b61227c150c8408b69ab7bb11d640b90309a4b512be47460e4aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"m-Y8xePjLNdNfuc1Hbwdg7NRDakE0alu\";}'
+    'advanced-frontend' => 'qq4ahctva5e37pa1r39g7o1ue28usv2a'
+    '_csrf-frontend' => 'afb33e2dfc26b0a6ec7f0d12a2603d50480c12d83920b1f1a55eaa3455205d99a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nvUuG_rGxJX-naK2X3q0sXsgYBSd4VA-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-backend=pu19bnhsoch2s6tacm15ht904oljk6hc; _csrf-backend=7b56ad0b7f059b61227c150c8408b69ab7bb11d640b90309a4b512be47460e4aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22m-Y8xePjLNdNfuc1Hbwdg7NRDakE0alu%22%3B%7D; advanced-frontend=qq4ahctva5e37pa1r39g7o1ue28usv2a; _csrf-frontend=afb33e2dfc26b0a6ec7f0d12a2603d50480c12d83920b1f1a55eaa3455205d99a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nvUuG_rGxJX-naK2X3q0sXsgYBSd4VA-%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '56744'
+    'REDIRECT_URL' => '/frontend/web/images/imageName.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/imageName.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631702946.711
+    'REQUEST_TIME' => 1631702946
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 15:09:27 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/514508110811626371151.jpg". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('uploads/5145081...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-10-01 15:09:27 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC\",2592000]\";}'
+    'advanced-backend' => '5v4t2qlnbaf8eef2t9facdaav06nff3i'
+    '_csrf-backend' => '887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/news/update?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC%22%2C2592000%5D%22%3B%7D; advanced-backend=5v4t2qlnbaf8eef2t9facdaav06nff3i; _csrf-backend=887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '64505'
+    'REDIRECT_URL' => '/frontend/web/uploads/514508110811626371151.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/514508110811626371151.jpg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633082967.247
+    'REQUEST_TIME' => 1633082967
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 15:48:32 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/2021080709301271123.jpg". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('uploads/2021080...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-10-01 15:48:32 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC\",2592000]\";}'
+    'advanced-backend' => '5v4t2qlnbaf8eef2t9facdaav06nff3i'
+    '_csrf-backend' => '887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd\";}'
+    'advanced-frontend' => 'dt8463caihd0d5adr9efnbkqf8rfnkko'
+    '_csrf-frontend' => '4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/news/update?id=5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC%22%2C2592000%5D%22%3B%7D; advanced-backend=5v4t2qlnbaf8eef2t9facdaav06nff3i; _csrf-backend=887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd%22%3B%7D; advanced-frontend=dt8463caihd0d5adr9efnbkqf8rfnkko; _csrf-frontend=4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '59262'
+    'REDIRECT_URL' => '/frontend/web/uploads/2021080709301271123.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/2021080709301271123.jpg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633085312.729
+    'REQUEST_TIME' => 1633085312
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 15:49:00 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/2021080709301271123.jpg". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('uploads/2021080...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-10-01 15:49:00 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC\",2592000]\";}'
+    'advanced-backend' => '5v4t2qlnbaf8eef2t9facdaav06nff3i'
+    '_csrf-backend' => '887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd\";}'
+    'advanced-frontend' => 'dt8463caihd0d5adr9efnbkqf8rfnkko'
+    '_csrf-frontend' => '4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/news/update?id=5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC%22%2C2592000%5D%22%3B%7D; advanced-backend=5v4t2qlnbaf8eef2t9facdaav06nff3i; _csrf-backend=887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd%22%3B%7D; advanced-frontend=dt8463caihd0d5adr9efnbkqf8rfnkko; _csrf-frontend=4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '60366'
+    'REDIRECT_URL' => '/frontend/web/uploads/2021080709301271123.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/2021080709301271123.jpg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633085340.024
+    'REQUEST_TIME' => 1633085340
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 15:49:02 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/2021080709301271123.jpg". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('uploads/2021080...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-10-01 15:49:02 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC\",2592000]\";}'
+    'advanced-backend' => '5v4t2qlnbaf8eef2t9facdaav06nff3i'
+    '_csrf-backend' => '887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd\";}'
+    'advanced-frontend' => 'dt8463caihd0d5adr9efnbkqf8rfnkko'
+    '_csrf-frontend' => '4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/news/update?id=5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC%22%2C2592000%5D%22%3B%7D; advanced-backend=5v4t2qlnbaf8eef2t9facdaav06nff3i; _csrf-backend=887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd%22%3B%7D; advanced-frontend=dt8463caihd0d5adr9efnbkqf8rfnkko; _csrf-frontend=4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '51540'
+    'REDIRECT_URL' => '/frontend/web/uploads/2021080709301271123.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/2021080709301271123.jpg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633085342.383
+    'REQUEST_TIME' => 1633085342
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 15:49:11 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/2021080709301271123.jpg". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('uploads/2021080...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-10-01 15:49:11 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC\",2592000]\";}'
+    'advanced-backend' => '5v4t2qlnbaf8eef2t9facdaav06nff3i'
+    '_csrf-backend' => '887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd\";}'
+    'advanced-frontend' => 'dt8463caihd0d5adr9efnbkqf8rfnkko'
+    '_csrf-frontend' => '4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/news/update?id=5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC%22%2C2592000%5D%22%3B%7D; advanced-backend=5v4t2qlnbaf8eef2t9facdaav06nff3i; _csrf-backend=887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd%22%3B%7D; advanced-frontend=dt8463caihd0d5adr9efnbkqf8rfnkko; _csrf-frontend=4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '59150'
+    'REDIRECT_URL' => '/frontend/web/uploads/2021080709301271123.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/2021080709301271123.jpg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633085351.248
+    'REQUEST_TIME' => 1633085351
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 15:49:15 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/2021080709301271123.jpg". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('uploads/2021080...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-10-01 15:49:15 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC\",2592000]\";}'
+    'advanced-backend' => '5v4t2qlnbaf8eef2t9facdaav06nff3i'
+    '_csrf-backend' => '887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd\";}'
+    'advanced-frontend' => 'dt8463caihd0d5adr9efnbkqf8rfnkko'
+    '_csrf-frontend' => '4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/news/update?id=5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC%22%2C2592000%5D%22%3B%7D; advanced-backend=5v4t2qlnbaf8eef2t9facdaav06nff3i; _csrf-backend=887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd%22%3B%7D; advanced-frontend=dt8463caihd0d5adr9efnbkqf8rfnkko; _csrf-frontend=4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '57246'
+    'REDIRECT_URL' => '/frontend/web/uploads/2021080709301271123.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/2021080709301271123.jpg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633085355.274
+    'REQUEST_TIME' => 1633085355
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 15:49:34 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/2021080709301271123.jpg". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('uploads/2021080...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-10-01 15:49:34 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC\",2592000]\";}'
+    'advanced-backend' => '5v4t2qlnbaf8eef2t9facdaav06nff3i'
+    '_csrf-backend' => '887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd\";}'
+    'advanced-frontend' => 'dt8463caihd0d5adr9efnbkqf8rfnkko'
+    '_csrf-frontend' => '4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/news/update?id=5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC%22%2C2592000%5D%22%3B%7D; advanced-backend=5v4t2qlnbaf8eef2t9facdaav06nff3i; _csrf-backend=887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd%22%3B%7D; advanced-frontend=dt8463caihd0d5adr9efnbkqf8rfnkko; _csrf-frontend=4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '57501'
+    'REDIRECT_URL' => '/frontend/web/uploads/2021080709301271123.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/2021080709301271123.jpg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633085374.033
+    'REQUEST_TIME' => 1633085374
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 15:49:35 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/2021080709301271123.jpg". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('uploads/2021080...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-10-01 15:49:35 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC\",2592000]\";}'
+    'advanced-backend' => '5v4t2qlnbaf8eef2t9facdaav06nff3i'
+    '_csrf-backend' => '887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd\";}'
+    'advanced-frontend' => 'dt8463caihd0d5adr9efnbkqf8rfnkko'
+    '_csrf-frontend' => '4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/news/update?id=5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC%22%2C2592000%5D%22%3B%7D; advanced-backend=5v4t2qlnbaf8eef2t9facdaav06nff3i; _csrf-backend=887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd%22%3B%7D; advanced-frontend=dt8463caihd0d5adr9efnbkqf8rfnkko; _csrf-frontend=4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '63701'
+    'REDIRECT_URL' => '/frontend/web/uploads/2021080709301271123.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/2021080709301271123.jpg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633085375.379
+    'REQUEST_TIME' => 1633085375
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 15:49:42 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/2021080709301271123.jpg". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('uploads/2021080...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-10-01 15:49:42 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC\",2592000]\";}'
+    'advanced-backend' => '5v4t2qlnbaf8eef2t9facdaav06nff3i'
+    '_csrf-backend' => '887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd\";}'
+    'advanced-frontend' => 'dt8463caihd0d5adr9efnbkqf8rfnkko'
+    '_csrf-frontend' => '4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/news/update?id=5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC%22%2C2592000%5D%22%3B%7D; advanced-backend=5v4t2qlnbaf8eef2t9facdaav06nff3i; _csrf-backend=887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd%22%3B%7D; advanced-frontend=dt8463caihd0d5adr9efnbkqf8rfnkko; _csrf-frontend=4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '54717'
+    'REDIRECT_URL' => '/frontend/web/uploads/2021080709301271123.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/2021080709301271123.jpg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633085382.656
+    'REQUEST_TIME' => 1633085382
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 15:49:43 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/2021080709301271123.jpg". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('uploads/2021080...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-10-01 15:49:43 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC\",2592000]\";}'
+    'advanced-backend' => '5v4t2qlnbaf8eef2t9facdaav06nff3i'
+    '_csrf-backend' => '887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd\";}'
+    'advanced-frontend' => 'dt8463caihd0d5adr9efnbkqf8rfnkko'
+    '_csrf-frontend' => '4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/news/update?id=5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC%22%2C2592000%5D%22%3B%7D; advanced-backend=5v4t2qlnbaf8eef2t9facdaav06nff3i; _csrf-backend=887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd%22%3B%7D; advanced-frontend=dt8463caihd0d5adr9efnbkqf8rfnkko; _csrf-frontend=4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '64099'
+    'REDIRECT_URL' => '/frontend/web/uploads/2021080709301271123.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/2021080709301271123.jpg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633085383.831
+    'REQUEST_TIME' => 1633085383
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 15:51:10 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/2021080709301271123.jpg". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('uploads/2021080...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-10-01 15:51:10 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC\",2592000]\";}'
+    'advanced-backend' => '5v4t2qlnbaf8eef2t9facdaav06nff3i'
+    '_csrf-backend' => '887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd\";}'
+    'advanced-frontend' => 'dt8463caihd0d5adr9efnbkqf8rfnkko'
+    '_csrf-frontend' => '4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/news/update?id=5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC%22%2C2592000%5D%22%3B%7D; advanced-backend=5v4t2qlnbaf8eef2t9facdaav06nff3i; _csrf-backend=887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd%22%3B%7D; advanced-frontend=dt8463caihd0d5adr9efnbkqf8rfnkko; _csrf-frontend=4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '55953'
+    'REDIRECT_URL' => '/frontend/web/uploads/2021080709301271123.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/2021080709301271123.jpg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633085470.795
+    'REQUEST_TIME' => 1633085470
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 16:20:41 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/holader.png". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('uploads/holader...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-10-01 16:20:41 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC\",2592000]\";}'
+    'advanced-backend' => '5v4t2qlnbaf8eef2t9facdaav06nff3i'
+    '_csrf-backend' => '887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd\";}'
+    'advanced-frontend' => 'dt8463caihd0d5adr9efnbkqf8rfnkko'
+    '_csrf-frontend' => '4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/news/view?id=5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC%22%2C2592000%5D%22%3B%7D; advanced-backend=5v4t2qlnbaf8eef2t9facdaav06nff3i; _csrf-backend=887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd%22%3B%7D; advanced-frontend=dt8463caihd0d5adr9efnbkqf8rfnkko; _csrf-frontend=4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '52675'
+    'REDIRECT_URL' => '/frontend/web/uploads/holader.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/holader.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633087240.999
+    'REQUEST_TIME' => 1633087240
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 16:29:02 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/2021092211594643050.jpg". in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('uploads/2021092...', Array)
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\yii2real-template\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-10-01 16:29:02 [127.0.0.1][-][dt8463caihd0d5adr9efnbkqf8rfnkko][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC\",2592000]\";}'
+    'advanced-backend' => '5v4t2qlnbaf8eef2t9facdaav06nff3i'
+    '_csrf-backend' => '887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd\";}'
+    'advanced-frontend' => 'dt8463caihd0d5adr9efnbkqf8rfnkko'
+    '_csrf-frontend' => '4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2real-template/driver/notification/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=1d76f1b595d57bc3d4ebdb7dd13c2afc518171d46aca62883e6992e2f2c41253a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22WZnmrJzMa350sBCe3qu1q-gvz5Z60VNC%22%2C2592000%5D%22%3B%7D; advanced-backend=5v4t2qlnbaf8eef2t9facdaav06nff3i; _csrf-backend=887291ba3c41a68589a159b6ebfb400d0ccc223dad41f24132922e9d97941eada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KtgwUCNtgK7fkFFTGa2H_TjebDr494Vd%22%3B%7D; advanced-frontend=dt8463caihd0d5adr9efnbkqf8rfnkko; _csrf-frontend=4f1597eef0196f5c8cbaf1f52d84c7bfe98b5ddd04fd9365edc701e8ba6c8656a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22x3Ark3qQwf9dRaM3zySqyOyFHSxVzZ9m%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/frontend/web/index.php'
+    'REMOTE_PORT' => '59163'
+    'REDIRECT_URL' => '/frontend/web/uploads/2021092211594643050.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/2021092211594643050.jpg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633087742.539
+    'REQUEST_TIME' => 1633087742
+    'argv' => []
+    'argc' => 0
+]

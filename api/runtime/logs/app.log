@@ -1,0 +1,963 @@
+2021-09-17 17:20:51 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-09-17 17:20:51 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '54974'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631881251.117
+    'REQUEST_TIME' => 1631881251
+    'argv' => []
+    'argc' => 0
+]
+2021-09-17 17:20:52 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-09-17 17:20:52 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '54974'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631881252.798
+    'REQUEST_TIME' => 1631881252
+    'argv' => []
+    'argc' => 0
+]
+2021-09-17 17:20:53 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-09-17 17:20:53 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '54974'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631881253.496
+    'REQUEST_TIME' => 1631881253
+    'argv' => []
+    'argc' => 0
+]
+2021-09-17 17:20:53 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-09-17 17:20:53 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '54974'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631881253.968
+    'REQUEST_TIME' => 1631881253
+    'argv' => []
+    'argc' => 0
+]
+2021-09-17 17:20:54 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-09-17 17:20:54 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '54974'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631881254.446
+    'REQUEST_TIME' => 1631881254
+    'argv' => []
+    'argc' => 0
+]
+2021-09-17 17:21:06 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-09-17 17:21:06 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '54974'
+    'REDIRECT_URL' => '/api/web/v1/users/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/users/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631881266.81
+    'REQUEST_TIME' => 1631881266
+    'argv' => []
+    'argc' => 0
+]
+2021-09-17 17:21:08 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-09-17 17:21:08 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '54974'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631881268.941
+    'REQUEST_TIME' => 1631881268
+    'argv' => []
+    'argc' => 0
+]
+2021-09-17 17:21:11 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-09-17 17:21:11 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_%22%3B%7D'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '54974'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631881271.393
+    'REQUEST_TIME' => 1631881271
+    'argv' => []
+    'argc' => 0
+]
+2021-09-17 17:21:13 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-09-17 17:21:13 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '54974'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631881273.605
+    'REQUEST_TIME' => 1631881273
+    'argv' => []
+    'argc' => 0
+]
+2021-09-17 17:21:24 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-09-17 17:21:24 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '54974'
+    'REDIRECT_URL' => '/api/web/v1/news/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/news/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631881284.282
+    'REQUEST_TIME' => 1631881284
+    'argv' => []
+    'argc' => 0
+]
+2021-09-17 17:21:35 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-09-17 17:21:35 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=4f41e5e032b023b389831519c7dbaf437ed38b97b6fedbab132f59160d1319dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I8wE-GXRfDpDPgWRdmghDiLhT2E8p_Z_%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '54974'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631881295.533
+    'REQUEST_TIME' => 1631881295
+    'argv' => []
+    'argc' => 0
+]
+2021-09-17 17:22:55 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-09-17 17:22:55 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'edd2b6795d591cfebb91176f324505a5fdf89c9308cdf9d741c0d3809c2ae065a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KOPilgVDHADSXx49cXq9N_Wk083gvftS\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=edd2b6795d591cfebb91176f324505a5fdf89c9308cdf9d741c0d3809c2ae065a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KOPilgVDHADSXx49cXq9N_Wk083gvftS%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '54974'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631881375.376
+    'REQUEST_TIME' => 1631881375
+    'argv' => []
+    'argc' => 0
+]
+2021-09-17 17:22:59 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-09-17 17:22:59 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'edd2b6795d591cfebb91176f324505a5fdf89c9308cdf9d741c0d3809c2ae065a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KOPilgVDHADSXx49cXq9N_Wk083gvftS\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=edd2b6795d591cfebb91176f324505a5fdf89c9308cdf9d741c0d3809c2ae065a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KOPilgVDHADSXx49cXq9N_Wk083gvftS%22%3B%7D'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '54974'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1631881379.917
+    'REQUEST_TIME' => 1631881379
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 14:58:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-10-01 14:58:07 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '49328'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633082287.199
+    'REQUEST_TIME' => 1633082287
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 14:58:28 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#2 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Component.php(628): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Controller.php(300): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Controller.php(216): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Controller.php(179): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('test', Array)
+#9 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('v1/news/test', Array)
+#10 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2021-10-01 14:58:28 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '49328'
+    'REDIRECT_URL' => '/api/web/v1/news/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/news/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633082308.54
+    'REQUEST_TIME' => 1633082308
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 14:58:49 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#2 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Component.php(628): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Controller.php(300): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Controller.php(216): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Controller.php(179): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('test', Array)
+#9 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('v1/news/test', Array)
+#10 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2021-10-01 14:58:49 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '49328'
+    'REDIRECT_URL' => '/api/web/v1/news/tester'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/news/tester'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633082329.116
+    'REQUEST_TIME' => 1633082329
+    'argv' => []
+    'argc' => 0
+]
+2021-10-01 15:00:42 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2021-10-01 15:00:42 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f690cbefa8b869738a6443aeef169516f0e43aa5473a3724f901c4378f105884a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CGgSKxqMm3UIJsafrNnqHMeSUrSO_Vmy\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=f690cbefa8b869738a6443aeef169516f0e43aa5473a3724f901c4378f105884a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CGgSKxqMm3UIJsafrNnqHMeSUrSO_Vmy%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.3-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.3-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.3-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\git;d:\\ospanel\\modules\\git\\bin;d:\\ospanel\\modules\\git\\mingw\\bin;d:\\ospanel\\modules\\git\\cmd;d:\\ospanel\\modules\\database\\MySQL-5.7-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '49328'
+    'REDIRECT_URL' => '/api/web/v1/news/tester'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/news/tester'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1633082442.04
+    'REQUEST_TIME' => 1633082442
+    'argv' => []
+    'argc' => 0
+]

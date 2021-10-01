@@ -74,7 +74,7 @@ $this->title = '';
                     <div class="card card-primary card-outline">
                         <div class="card-body box-profile">
                             <div class="text-center">
-                                <img class="profile-user-img img-fluid img-circle" src="/frontend/web/uploads/user.jpg" alt="User profile picture">
+                                <img class="profile-user-img img-fluid img-circle" src="/uploads/user.jpg" alt="User profile picture">
                             </div>
 
                             <h3 class="profile-username text-center"><?=\common\models\User::findOne(Yii::$app->user->id)['username']?></h3>

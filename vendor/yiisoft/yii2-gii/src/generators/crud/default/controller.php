@@ -142,6 +142,15 @@ class <?= $controllerClass ?> extends AppController
         return $this->redirect(['index']);
     }
 
+    public function actionRmfile(){
+        $id = Yii::$app->request->post()['id'];
+        $model = $this->findModel($id);
+        if(unlink(Yii::getAlias('@frontend') . '/web/uploads/' . $model->image)) {
+             $model->image = null;
+        }
+        return $model->save();
+    }
+
     /**
      * Finds the <?= $modelClass ?> model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.

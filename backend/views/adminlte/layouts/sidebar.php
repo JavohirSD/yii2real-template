@@ -26,10 +26,12 @@ use yii\helpers\Url;
         <nav class="mt-2 sidebar-scroll">
 
             <?php
-            // https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free FAW v5 icons
+            // https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free
+            // FAW v5 icons
             echo \hail812\adminlte3\widgets\Menu::widget([
                 'items' => [
                     ['label' => 'Menu', 'header' => true],
+                    ['label' => 'Asosiy panel', 'icon' => 'cube',  'url' => ['/site/index']],
                     ['label' => 'Yangiliklar',  'icon' => 'newspaper',  'url' => ['/news/index']],
                     ['label' => 'Foydalanuvchilar', 'icon' => 'users',  'url' => ['/user/index']],
                     ['label' => 'SEO Sozlamalar',   'icon' => 'search', 'url' => ['/seo/update?id=1']],

@@ -74,7 +74,8 @@ $this->registerJsFile('/driver/assets/425ec420/tinymce.js',['depends' => [\yii\w
 
                     <!--- IMAGE  CROP  AND  FILE  SELECT  DIALOG BOX AREA START --->
                     <label class="control-label" for="SignupForm[image]">Rasm tanlash</label>
-                    <img id="thumb" src="/frontend/web/uploads/<?php if($model->image!=null) echo $model->image; else echo 'holder.png'; ?>" width="270px" class="thumbr"/>
+                    <img id="thumb" src="/uploads/<?php if($model->image!=null) echo $model->image; else echo 'holder.png'; ?>" width="270px" class="thumbr"/>
+                    <div id="rmfile" class="btn btn-danger" style="width: 103%; display: <?=$model->image?'block':'none'?>" ><i class="fa fa-trash-alt"></i> Rasmni o‘chirish </div>
                     <?= $form->field($model, 'image')->fileInput(['style'=>'display:none'])->label(false) ?>
                     <input type="hidden" name="News[crop_image]" id="crop_image" value="">
                     <!--- IMAGE  CROP  AND  FILE  SELECT  DIALOG BOX AREA  END --->

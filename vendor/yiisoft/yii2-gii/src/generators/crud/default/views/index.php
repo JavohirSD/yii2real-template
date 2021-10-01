@@ -39,6 +39,10 @@ $this->params['breadcrumbs'][] = $this->title;
 <?php if ($generator->indexWidgetType === 'grid'): ?>
     <?= "<?= " ?>GridView::widget([
         'dataProvider' => $dataProvider,
+        'summary' => "<div class=\"alert\" style=\"background-color: #bee5eb;\"><text>
+                      Sahifa: <b> {page} </b> | Joriy sahifadagi ma'lumotlar soni: <b>
+                      {count} </b> | Barcha topilgan ma'lumotlar soni: <b> {totalCount} </b>
+                      </text></div>",
         <?= !empty($generator->searchModelClass) ? "'filterModel' => \$searchModel,\n        'columns' => [\n" : "'columns' => [\n"; ?>
             ['class'  => 'yii\grid\SerialColumn'],
             [ 'class' => 'yii\grid\CheckboxColumn'],

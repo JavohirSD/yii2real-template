@@ -29,8 +29,17 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?= DetailView::widget([
         'model' => $model,
+        'template' => "<tr><th style='width: 25%;'>{label}</th><td>{value}.</td></tr>",
         'attributes' => [
-            'id',
+            [
+                'attribute' => 'image',
+                'format'    => 'raw',
+                'value' =>  function($model){
+                    $image = $model->image??'holder.png';
+                    return "<a href='/uploads/".$image."' target='_blank'>
+                           <img src='/uploads/".$image."' width='200'></a>";
+                },
+            ],
             'title_uz',
             'title_ru',
             'title_en',
