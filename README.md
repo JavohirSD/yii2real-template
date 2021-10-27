@@ -13,7 +13,7 @@ Enhanced Yii2 Advanced project template for quick launching products with univer
 
 # Features:
 
-# v 1.0.0
+## v 1.0.0
   - `yii init` executed.
   - `yii migrate` executed.
   -  advanced `htaccess` template added in frontend | backend | api applications
@@ -29,7 +29,7 @@ Enhanced Yii2 Advanced project template for quick launching products with univer
   - Delete image files on $model->delete()
   - `i18n` configured for @frontend and @backend
   - Translation menu created for backend admin panel.
- # v 1.2.0
+ ## v 1.2.0
   - SEO optimisation menu created for backend admin panel.
   - `codemix` pretty locale url installed and configured
   - News controller and model ready to use (also views are created)  
@@ -39,7 +39,7 @@ Enhanced Yii2 Advanced project template for quick launching products with univer
   - Project timeZone set to Asia/Tashkent `common/config/main.php`
   - Versioned REST API module created and configured.
   - Bearer authorization and AccessToken exchanging configured for API module
- # v.1.3.0
+ ## v.1.3.0
   - REST API url rules and routes simplified
   - Date format changed to dd.mm.yyyy in GridView
   - Added summary navbar for GridView results
@@ -66,7 +66,9 @@ Yii2-Real Template requires [Apache](https://apache.org/) or [Ngnix](https://ngn
 ### Defaults
 
 Front end    `example.com/`
+  
 Admin panel: `example.com/driver/{ControllerName}`
+  
 REST API:    `example.com/api/v1/{ControllerName}`
   
 Default login and password: `superdriver`
