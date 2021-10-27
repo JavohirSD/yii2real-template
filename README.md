@@ -13,6 +13,7 @@ Enhanced Yii2 Advanced project template for quick launching products with univer
 
 # Features:
 
+# v 1.0.0
   - `yii init` executed.
   - `yii migrate` executed.
   -  advanced `htaccess` template added in frontend | backend | api applications
@@ -28,6 +29,7 @@ Enhanced Yii2 Advanced project template for quick launching products with univer
   - Delete image files on $model->delete()
   - `i18n` configured for @frontend and @backend
   - Translation menu created for backend admin panel.
+ # v 1.2.0
   - SEO optimisation menu created for backend admin panel.
   - `codemix` pretty locale url installed and configured
   - News controller and model ready to use (also views are created)  
@@ -37,7 +39,20 @@ Enhanced Yii2 Advanced project template for quick launching products with univer
   - Project timeZone set to Asia/Tashkent `common/config/main.php`
   - Versioned REST API module created and configured.
   - Bearer authorization and AccessToken exchanging configured for API module
-
+ # v.1.3.0
+  - REST API url rules and routes simplified
+  - Date format changed to dd.mm.yyyy in GridView
+  - Added summary navbar for GridView results
+  - Added button for deleting model image in forms
+  - Resized width of attributes and values of DetailView
+  - Added model image preview in view action (DetailView)
+  -  Added <span> tag for TinyMce `extended_valid_elements`
+  - included missing namespace "yii\web\UploadedFile" in controllers
+  - included missing namespace "yii\imagine\Image" in model
+  - Absolute file paths replaced to aliases
+  - Added printMeta() function for registering og and twitter meta tags
+  - File deleting optimised and safed by Gii (actionDelete, actionRmfile, actionRemover)
+  - Fixed image cropper bugs and performance optimised
 
 
 ### Installation
@@ -50,8 +65,10 @@ Yii2-Real Template requires [Apache](https://apache.org/) or [Ngnix](https://ngn
 
 ### Defaults
 
-Admin panel: `example.com/driver`
-
+Front end    `example.com/`
+Admin panel: `example.com/driver/{ControllerName}`
+REST API:    `example.com/api/v1/{ControllerName}`
+  
 Default login and password: `superdriver`
 
 ### For manually installing or updating extensions
