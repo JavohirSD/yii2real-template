@@ -14,7 +14,7 @@ $('#rmfile').click(function(){
          url: "/driver/"+controller_id+"/rmfile",
          type: 'POST',
          data: {
-               id: model_id,
+             id: model_id,
            _csrf : yii.getCsrfToken()
           },
         success: function () {

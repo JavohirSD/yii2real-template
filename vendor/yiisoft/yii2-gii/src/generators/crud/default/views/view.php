@@ -40,6 +40,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= "<?= " ?>DetailView::widget([
         'model' => $model,
         'attributes' => [
+            <?php if($generator->hasImage()){ ?>
             [
                 'attribute' => 'image',
                 'format'    => 'raw',
@@ -49,7 +50,7 @@ $this->params['breadcrumbs'][] = $this->title;
                            <img src='/uploads/".$image."' width='200'></a>";
                 },
             ],
-<?php
+<?php }
 if (($tableSchema = $generator->getTableSchema()) === false) {
     foreach ($generator->getColumnNames() as $name) {
         if($name=='status' || $name=='image') continue;

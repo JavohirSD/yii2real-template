@@ -112,13 +112,31 @@ class NewsController extends AppController
         return $this->redirect(['index']);
     }
 
+
+
     public function actionRmfile(){
-          $id = Yii::$app->request->post()['id'];
-          $model = $this->findModel($id);
-          if(unlink(Yii::getAlias('@frontend') . '/web/uploads/' . $model->image)) {
-              $model->image = null;
-          }
-          return $model->save();
+        $id = Yii::$app->request->post()['id'];
+        $model = $this->findModel($id);
+        $file_path = Yii::getAlias('@frontend') . '/web/uploads/' . $model->image;
+            if(file_exists($file_path)) {
+                if(unlink($file_path)) {
+                    $model->delete();
+                }
+            }
+        return $model->save();
+    }
+
+    public function actionRemover(){
+        $ids = Yii::$app->request->post()['ids'];
+        if($ids){
+            for($i=0; $i<count($ids); $i++){
+                $this->findModel($ids[$i])->delete();
+                // $model = $this->findModel($ids[$i]);
+                // if(unlink(Yii::getAlias('@frontend') . '/web/uploads/' . $model->image)) {
+                //  $model->delete();
+                //  }
+            } return 'success';
+        } return 'error';
     }
 
     /**
@@ -144,16 +162,4 @@ class NewsController extends AppController
         return $this->redirect(['index']);
     }
 
-    public function actionRemover(){
-        $ids = Yii::$app->request->post()['ids'];
-        if($ids){
-           for($i=0; $i<count($ids); $i++){
-                $this->findModel($ids[$i])->delete();
-                // $model = $this->findModel($ids[$i]);
-                // if(unlink(Yii::getAlias('@frontend') . '/web/uploads/' . $model->image)) {
-                //  $model->delete();
-                //  }
-             } return 'success';
-        } return 'error';
-    }
 }

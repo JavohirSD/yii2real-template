@@ -23,7 +23,6 @@ $pks = $class::primaryKey();
 $urlParams = $generator->generateUrlParams();
 $actionParams = $generator->generateActionParams();
 $actionParamComments = $generator->generateActionParamComments();
-
 echo "<?php\n";
 ?>
 
@@ -39,6 +38,7 @@ use yii\data\ActiveDataProvider;
 use <?= ltrim($generator->baseControllerClass, '\\') ?>;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\web\UploadedFile;
 
 /**
  * <?= $controllerClass ?> implements the CRUD actions for <?= $modelClass ?> model.
@@ -129,26 +129,68 @@ class <?= $controllerClass ?> extends AppController
      * <?= implode("\n     * ", $actionParamComments) . "\n" ?>
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
+     * Select fragment and CTRL + ALT + L  to prettify code
      */
     public function actionDelete(<?= $actionParams ?>)
     {
+        <?php if($generator->hasImage() === false) { ?>
         $this->findModel(<?= $actionParams ?>)->delete();
-
-       //  $model = $this->findModel(<?= $actionParams ?>);
-       //  if(unlink(Yii::getAlias('@frontend') . '/web/uploads/' . $model->image)) {
-       //    $model->delete();
-       //  }
-
+        <?php } else { ?>
+         $model = $this->findModel(<?= $actionParams ?>);
+         $file_path = Yii::getAlias('@frontend') . '/web/uploads/' . $model->image;
+         if(file_exists($file_path)) {
+             if(unlink($file_path)) {
+                 $model->delete();
+              }
+          }
+        <?php } ?>
         return $this->redirect(['index']);
     }
 
+    /**
+     * Delete selected models and their files from index view
+    */
+    public function actionRemover(){
+       $ids = Yii::$app->request->post()['ids'];
+       if($ids){
+        for($i=0; $i<count($ids); $i++){
+            <?php if($generator->hasImage() === false) { ?>
+              $this->findModel($ids[$i])->delete();
+            <?php } else { ?>
+              $model = $this->findModel($ids[$i]);
+              $file_path = Yii::getAlias('@frontend') . '/web/uploads/' . $model->image;
+              if(file_exists($file_path)) {
+                  if(unlink($file_path)) {
+                       $model->delete();
+                     }
+                 }
+            <?php } ?>
+             } return 'success';
+         } return 'error';
+    }
+
+    /**
+    * Delete main image of models in form
+    */
+    <?php if($generator->hasImage()) { ?>
     public function actionRmfile(){
         $id = Yii::$app->request->post()['id'];
         $model = $this->findModel($id);
-        if(unlink(Yii::getAlias('@frontend') . '/web/uploads/' . $model->image)) {
-             $model->image = null;
+        $file_path = Yii::getAlias('@frontend') . '/web/uploads/' . $model->image;
+            if(file_exists($file_path)) {
+                if(unlink($file_path)) {
+                     $model->delete();
+             }
         }
         return $model->save();
+    }
+    <?php } ?>
+
+    public function actionStatus($id,$s){
+        $model = <?= $modelClass ?>::findOne($id);
+            $model->status = $s==0?1:0;
+            $model->save();
+        return $this->redirect(['index']);
     }
 
     /**
@@ -178,23 +220,4 @@ if (count($pks) === 1) {
         throw new NotFoundHttpException(<?= $generator->generateString('The requested page does not exist.') ?>);
     }
 
-    public function actionStatus($id,$s){
-            $model = <?= $modelClass ?>::findOne($id);
-            $model->status = $s==0?1:0;
-            $model->save();
-        return $this->redirect(['index']);
-    }
-
-    public function actionRemover(){
-        $ids = Yii::$app->request->post()['ids'];
-        if($ids){
-           for($i=0; $i<count($ids); $i++){
-                $this->findModel($ids[$i])->delete();
-                // $model = $this->findModel($ids[$i]);
-                // if(unlink(Yii::getAlias('@frontend') . '/web/uploads/' . $model->image)) {
-                //  $model->delete();
-                //  }
-             } return 'success';
-        } return 'error';
-    }
 }

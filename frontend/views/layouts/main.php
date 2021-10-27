@@ -37,12 +37,6 @@ if(\backend\models\Visitors::findOne(['ip_address'=>Yii::$app->request->getUserI
     <meta name="robots" content="index,follow">
     <meta name="google-site-verification" content="<?=$seo['google_verify']?>" />
 
-    <meta property="og:title" content="<?=$seo['og_title_'.Yii::$app->language]?>" />
-    <meta property="og:type"  content="<?=$seo['og_type']?>">
-    <meta property="og:url"   content="<?=Url::base('https');?>" />
-    <meta property="og:image" content="<?=Url::base('https').'/uploads/'.$seo['icon']?>" />
-    <meta property="og:site_name"   content="<?=$seo['title_'.Yii::$app->language]?>">
-    <meta property="og:description" content="<?=$seo['description_'.Yii::$app->language]?>">
     <meta property="host_ip" content="<?=Yii::$app->request->getUserIP()?>">
     <?php $this->registerCsrfMetaTags() ?>
     <?php $this->head() ?>

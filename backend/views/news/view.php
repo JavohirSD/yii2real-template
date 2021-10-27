@@ -66,6 +66,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'anons_en:ntext',
             'category_id',
             'user_id',
+            'created_date',
             [
                 'attribute' => 'status',
                 'format' => 'raw',
@@ -83,8 +84,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 </div>';
                 },
             ],
-            'created_date',
-            'image',
+
         ],
     ]) ?>
 </div>

@@ -53,6 +53,12 @@ class Generator extends \yii\gii\Generator
     /**
      * {@inheritdoc}
      */
+
+    public function hasImage(){
+        return array_search('image',$this->getColumnNames())===false ? false : true;
+    }
+
+
     public function getName()
     {
         return 'CRUD Generator';

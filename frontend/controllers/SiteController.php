@@ -323,30 +323,45 @@ class SiteController extends Controller
         }
     }
 
-    public function actionSendsms(){
+    public function printMeta($title, $image, $description , $url, $site_name)
+    {
+        \Yii::$app->view->registerMetaTag([
+            'name' => 'twitter:image',
+            'content'  => $image
+        ]);
 
+        \Yii::$app->view->registerMetaTag([
+            'name' => 'twitter:card',
+            'content'  => 'summary_large_image'
+        ]);
+
+        \Yii::$app->view->registerMetaTag([
+            'property' => 'og:title',
+            'content'  => $title
+        ]);
+
+        \Yii::$app->view->registerMetaTag([
+            'property' => 'og:image',
+            'content'  => $image
+        ]);
+
+        \Yii::$app->view->registerMetaTag([
+            'property' => 'og:description',
+            'content'  => $description
+        ]);
+
+        \Yii::$app->view->registerMetaTag([
+            'property' => 'og:url',
+            'content'  => $url
+        ]);
+
+        \Yii::$app->view->registerMetaTag([
+            'property' => 'og:site_name',
+            'content'  => $site_name
+        ]);
     }
 
-    public function sendsms($phone,$code){
-        $curl = curl_init();
-        curl_setopt_array($curl, array(
-            CURLOPT_URL => 'notify.eskiz.uz/api/message/sms/send',
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_ENCODING => '',
-            CURLOPT_MAXREDIRS => 10,
-            CURLOPT_TIMEOUT => 0,
-            CURLOPT_FOLLOWLOCATION => true,
-            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-            CURLOPT_CUSTOMREQUEST => 'POST',
-            CURLOPT_POSTFIELDS => array('mobile_phone' => $phone, 'message' => 'PALMAFERGANA.UZ sayti uchun tasdiqlash kodi: '.$code, 'from' => '4546'),
-            CURLOPT_HTTPHEADER => array(
-                'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9ub3RpZnkuZXNraXoudXpcL2FwaVwvYXV0aFwvbG9naW4iLCJpYXQiOjE2MjM0Nzk4ODUsImV4cCI6MTYyNjA3MTg4NSwibmJmIjoxNjIzNDc5ODg1LCJqdGkiOiJCN1NONUhZWWRmZ1hxVzlGIiwic3ViIjo0OTUsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.D_AJzNaRiU0fusjx8vxEgQJhlrN9s7CCATPALyvNLWU'
-            ),
-        ));
-        $response = curl_exec($curl);
-        curl_close($curl);
-        return $response;
-    }
+
 
 
 
