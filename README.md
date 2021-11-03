@@ -60,7 +60,7 @@ Enhanced Yii2 Advanced project template for quick launching products with univer
 Yii2-Real Template requires [Apache](https://apache.org/) or [Ngnix](https://ngnix.org/) installed server to run.
 
 1. Clone repository to your server
-2. Import or create database template (`yii2real_db.sql`)
+2. Import database template (`yii2real_db.sql`)
 4. Enjoy.
 
 ### Defaults
@@ -82,7 +82,7 @@ $ composer require codemix/yii2-localeurls
 $ composer require --prefer-dist yiisoft/yii2-imagine
 ```
 ### Additional information
-The template includes three tiers: front end, back end, console, and api each of which
+The template includes four tiers: Front end, Back end, Console, and API each of which
 is a separate Yii application.
 
 The template is designed to work in a team development environment. It supports
