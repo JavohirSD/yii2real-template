@@ -98,6 +98,8 @@ $ composer require "hail812/yii2-adminlte3=~1.1"
 $ composer require 2amigos/yii2-tinymce-widget:~1.1
 $ composer require codemix/yii2-localeurls
 $ composer require --prefer-dist yiisoft/yii2-imagine
+$ composer require bizley/migration
+$ composer require "lubosdz/yii2-captcha-extended" : "~1.0.0"
 ```
 ### Additional information
 The template includes four tiers: Front end, Back end, Console, and API each of which
