@@ -53,7 +53,25 @@ Enhanced Yii2 Advanced project template for quick launching products with univer
   - Added printMeta() function for registering og and twitter meta tags
   - File deleting optimised and safed by Gii (actionDelete, actionRmfile, actionRemover)
   - Fixed image cropper bugs and performance optimised
-
+## v.2.0.1
+  -- ResponsiveFileManager`s security improved
+  -- Seo,User,News model/controllers optimised and bugs fixed
+  -- Editable created_date in forms with jQuery.inputmask
+  -- Restricted execution of  URLs ending with .php (htaccess)
+  -- URLs ending with /backend/web restricted (htaccess)
+  -- Addd icon of SEO on top of sidebar
+  -- Fixed file deletion bugs in Gii generated controllers
+  -- Added lubosdz/yii2-captcha-extended (ex: site/contact)
+  -- Deleted unused asset files (was: 330Mb, now: 190Mb)
+  -- Fixed custom i18n dictionary bugs
+  -- Fixed backend assets url
+  -- Fixed GridView/ListView mobile responsiveness
+  -- Admin panel forms converted to BS4 and field validations fixed
+  -- ``bizley/migration`` installed to generate migrations automatically
+  -- Added DropDown data status filter to index action's GridView (By Gii)
+  -- Added confirmation alert for delete actions
+  -- CRUD buttons of view action modified and redesigned
+  -- In GridView and DetailView null values replaced to empty string
 
 ### Installation
 
