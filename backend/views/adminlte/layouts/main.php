@@ -3,6 +3,8 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 use yii\helpers\Html;
+use yii\helpers\Url;
+
 \hail812\adminlte3\assets\FontAwesomeAsset::register($this);
 \hail812\adminlte3\assets\AdminLteAsset::register($this);
 $this->registerCssFile('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700');
@@ -19,9 +21,9 @@ if(\backend\models\Visitors::findOne(['ip_address'=>Yii::$app->request->getUserI
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-    <link href="/driver/css/site.css"    rel="stylesheet">
-    <link href="/driver/css/cropper.css" rel="stylesheet" >
-    <link href="/driver/css/cropper_main.css"    rel="stylesheet" >
+    <link href="<?=Url::base()?>/css/site.css"    rel="stylesheet">
+    <link href="<?=Url::base()?>/css/cropper.css" rel="stylesheet" >
+    <link href="<?=Url::base()?>/css/cropper_main.css"    rel="stylesheet" >
 
 </head>
 <body class="hold-transition sidebar-mini">
@@ -46,11 +48,14 @@ if(\backend\models\Visitors::findOne(['ip_address'=>Yii::$app->request->getUserI
     <!-- Main Footer -->
     <?= $this->render('footer') ?>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 
 <?php $this->endBody() ?>
-<script src="/driver/js/cropper.js"></script>
-<script src="/driver/js/cropper_main.js"></script>
+<script src="<?=Url::base()?>/js/cropper.js"></script>
+<script src="<?=Url::base()?>/js/cropper_main.js"></script>
+<script src="<?=Url::base()?>/js/jquery.inputmask.bundle.js"></script>
+<script src="<?=Url::base()?>/js/Chart.js"></script>
+<script src="<?=Url::base()?>/js/custom.js"></script>
+
 </body>
 </html>
 <?php $this->endPage() ?>

@@ -961,3 +961,156 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2022-01-17 12:59:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2022-01-17 12:59:34 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.4\\ext;d:\\ospanel\\modules\\php\\PHP_7.4\\pear;d:\\ospanel\\modules\\php\\PHP_7.4\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.4;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-5.7\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '55188'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1642406373.9706
+    'REQUEST_TIME' => 1642406373
+]
+2022-01-17 12:59:35 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2022-01-17 12:59:35 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.4\\ext;d:\\ospanel\\modules\\php\\PHP_7.4\\pear;d:\\ospanel\\modules\\php\\PHP_7.4\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.4;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-5.7\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '55188'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1642406375.3919
+    'REQUEST_TIME' => 1642406375
+]
+2022-01-17 12:59:41 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Request.php:293
+Stack trace:
+#0 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\web\Application.php(83): yii\web\Request->resolve()
+#1 D:\OSPanel\domains\yii2real-template\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\yii2real-template\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2022-01-17 12:59:41 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'yii2real-template'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.4\\ext;d:\\ospanel\\modules\\php\\PHP_7.4\\pear;d:\\ospanel\\modules\\php\\PHP_7.4\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.4;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-5.7\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2real-template'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/yii2real-template'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/yii2real-template/api/web/index.php'
+    'REMOTE_PORT' => '55188'
+    'REDIRECT_URL' => '/api/web/v1/user/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/user/test'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1642406381.5844
+    'REQUEST_TIME' => 1642406381
+]

@@ -57,6 +57,7 @@ class User extends ActiveRecord implements IdentityInterface
     public function rules()
     {
         return [
+            ['username','string'],
             ['status', 'default', 'value' => self::STATUS_INACTIVE],
             [['description','crop_image','access_token'],'safe'],
             ['status', 'in', 'range' => [self::STATUS_ACTIVE, self::STATUS_INACTIVE, self::STATUS_DELETED]],
@@ -224,8 +225,9 @@ class User extends ActiveRecord implements IdentityInterface
 
     public function upload()
     {
-        if ($this->validate(false)) {
-            $this->image->saveAs('../../frontend/web/uploads/' . md5($this->image->baseName). '.' . $this->image->extension);
+        if ($this->validate() && $this->image != null) {
+            $file_path = Yii::getAlias('@frontend') . '/web/uploads/';
+            $this->image->saveAs($file_path . md5($this->image->baseName). '.' . $this->image->extension);
             return true;
         } else {
             return false;

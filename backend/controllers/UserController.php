@@ -75,22 +75,25 @@ class UserController extends AppController
         $model = $this->findModel($id);
         $image = $model->image;
         $old_password = $model->password_hash;
+
         if ($model->load(Yii::$app->request->post())) {
 
-            $model->username = Yii::$app->request->post()['User']['username'];
-            $model->email    = Yii::$app->request->post()['User']['email'];
-            $model->status   = Yii::$app->request->post()['User']['status'];
-            $password = Yii::$app->security->generatePasswordHash(Yii::$app->request->post()['User']['password_hash']);
-            $model->password_hash = $old_password==Yii::$app->request->post()['User']['password_hash']?$old_password:$password;
+            // Read new password from POST without hashing
+            $new_password = Yii::$app->request->post()['User']['password_hash'];
 
+            // Do not change user password if password_hash input is empty
+            $model->password_hash = $new_password === "" ? $old_password : Yii::$app->security->generatePasswordHash($new_password);
 
-            $model->image    = UploadedFile::getInstance($model, 'image');
-            if ( $model->image and $model->upload() ) {
-                 $image = md5($model->image->baseName).'.'.$model->image->extension;
-                 // file is uploaded successfully
+            // Load image to model
+            $model->image = UploadedFile::getInstance($model, 'image');
+
+            // Upload image if file is valid and not empty
+            if ($model->upload()) {
+                $image = md5($model->image->baseName) . '.' . $model->image->extension;
+                // file is uploaded successfully
             }
 
-            $model->image = $model->crop_image==null?$image:$model->crop_image;
+            $model->image = $image;
             $model->save();
             return $this->redirect(['view', 'id' => $model->id]);
         }

@@ -36,104 +36,91 @@ $this->params['breadcrumbs'][] = $this->title;
 <?= "    <?php " . ($generator->indexWidgetType === 'grid' ? "// " : "") ?>echo $this->render('_search', ['model' => $searchModel]); ?>
 <?php endif; ?>
 
-<?php if ($generator->indexWidgetType === 'grid'): ?>
-    <?= "<?= " ?>GridView::widget([
-        'dataProvider' => $dataProvider,
-        'summary' => "<div class=\"alert\" style=\"background-color: #bee5eb;\"><text>
-                      Sahifa: <b> {page} </b> | Joriy sahifadagi ma'lumotlar soni: <b>
-                      {count} </b> | Barcha topilgan ma'lumotlar soni: <b> {totalCount} </b>
-                      </text></div>",
-        <?= !empty($generator->searchModelClass) ? "'filterModel' => \$searchModel,\n        'columns' => [\n" : "'columns' => [\n"; ?>
-            ['class'  => 'yii\grid\SerialColumn'],
-            [ 'class' => 'yii\grid\CheckboxColumn'],
+    <div class="table-responsive">
+        <?php if ($generator->indexWidgetType === 'grid'): ?>
+            <?= "<?= " ?>GridView::widget([
+                'dataProvider' => $dataProvider,
+                'formatter' => ['class' => 'yii\i18n\Formatter','nullDisplay' => ''],
+                'summary' => "<div class=\"alert\" style=\"background-color: #bee5eb;\"><text>
+                              Sahifa: <b> {page} </b> | Joriy sahifadagi ma'lumotlar soni: <b>
+                              {count} </b> | Barcha topilgan ma'lumotlar soni: <b> {totalCount} </b>
+                              </text></div>",
+                <?= !empty($generator->searchModelClass) ? "'filterModel' => \$searchModel,\n        'columns' => [\n" : "'columns' => [\n"; ?>
+                    ['class'  => 'yii\grid\SerialColumn'],
+                    [ 'class' => 'yii\grid\CheckboxColumn'],
 
-<?php
-$count = 0;
-if (($tableSchema = $generator->getTableSchema()) === false) {
-    foreach ($generator->getColumnNames() as $name) {
-        if (++$count < 6) {
-            echo "            '" . $name . "',\n";
+        <?php
+        $count = 0;
+        if (($tableSchema = $generator->getTableSchema()) === false) {
+            foreach ($generator->getColumnNames() as $name) {
+                if (++$count < 6) {
+                    echo "            '" . $name . "',\n";
+                } else {
+                    echo "            //'" . $name . "',\n";
+                }
+            }
         } else {
-            echo "            //'" . $name . "',\n";
+            foreach ($tableSchema->columns as $column) {
+                $format = $generator->generateColumnFormat($column);
+                if (++$count < 6) {
+                    echo "            '" . $column->name . ($format === 'text' ? "" : ":" . $format) . "',\n";
+                } else {
+                    echo "            //'" . $column->name . ($format === 'text' ? "" : ":" . $format) . "',\n";
+                }
+            }
         }
-    }
-} else {
-    foreach ($tableSchema->columns as $column) {
-        $format = $generator->generateColumnFormat($column);
-        if (++$count < 6) {
-            echo "            '" . $column->name . ($format === 'text' ? "" : ":" . $format) . "',\n";
-        } else {
-            echo "            //'" . $column->name . ($format === 'text' ? "" : ":" . $format) . "',\n";
-        }
-    }
-}
-?>
-    [
-        'attribute' => 'status',
-        'format' => 'raw',
-        'value' =>  function($model){
-                $btn  = $model->status==0?'danger':'success';
-                $txt  = $model->status==0?'Inaktiv':'Aktiv';
-                return '<div class="input-group-prepend">
-                    <button type="button" class="btn btn-'.$btn.' dropdown-toggle" data-toggle="dropdown">
-                        '.$txt.'
-                    </button>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item text-success" href="/driver/<?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>/status?id='.$model->id.'&s=0">Aktiv holatda</a>
-                        <a class="dropdown-item text-danger"  href="/driver/<?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>/status?id='.$model->id.'&s=1">Aktiv emas</a>
-                    </div>
-                </div>';
-              },
-          ],
+        ?>
+            [
+                'attribute' => 'status',
+                'format' => 'raw',
+                'filter'=> [1 => 'Aktiv', '0' => 'Inaktiv'],
+                'value' =>  function($model){
+                        $btn  = $model->status==0?'danger':'success';
+                        $txt  = $model->status==0?'Inaktiv':'Aktiv';
+                        return '<div class="input-group-prepend">
+                            <button type="button" class="btn btn-'.$btn.' dropdown-toggle" data-toggle="dropdown">
+                                '.$txt.'
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item text-success" href="/driver/<?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>/status?id='.$model->id.'&s=0">Aktiv holatda</a>
+                                <a class="dropdown-item text-danger"  href="/driver/<?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>/status?id='.$model->id.'&s=1">Aktiv emas</a>
+                            </div>
+                        </div>';
+                      },
+                  ],
 
-          ['class' => 'yii\grid\ActionColumn',
-                'template' => '{view} {update} {delete}',
-                'buttons' => [
-                    'delete' => function ($url) {
-                        return Html::a('<div class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></div>',$url, ['title' => 'Delete', 'data-pjax' => '0',]);
-                    },
-                    'update' => function ($url) {
-                        return Html::a('<div class="btn btn-primary"><span class="glyphicon glyphicon-pencil"></span></div>',$url, ['title' => 'Update', 'data-pjax' => '0',]);
-                    },
-                    'view' => function ($url) {
-                        return Html::a('<div class="btn btn-success"><span class="glyphicon glyphicon-eye-open"></span></div>',$url, ['title' => 'View', 'data-pjax' => '0',]);
-                    },
+                  ['class' => 'yii\grid\ActionColumn',
+                        'template' => '{view} {update} {delete}',
+                        'buttons' => [
+                            'delete' => function ($url, $model) {
+                                return Html::a('<i class="fa fa-trash"></i>', ['delete', 'id' => $model->id], [
+                                    'class' => 'btn btn-danger',
+                                    'data'  => [
+                                    'confirm' => 'Belgilangan ma’lumotni o’chirmoqchimisiz ?',
+                                    'method'  => 'post',
+                                    ],
+                                ]);
+                            },
+                            'update' => function ($url) {
+                                return Html::a('<div class="btn btn-primary"><span class="glyphicon glyphicon-pencil"></span></div>',$url, ['title' => 'Update', 'data-pjax' => '0',]);
+                            },
+                            'view' => function ($url) {
+                                return Html::a('<div class="btn btn-success"><span class="glyphicon glyphicon-eye-open"></span></div>',$url, ['title' => 'View', 'data-pjax' => '0',]);
+                            },
+                        ],
+                    ],
                 ],
-            ],
-        ],
-    ]); ?>
-<?php else: ?>
-    <?= "<?= " ?>ListView::widget([
-        'dataProvider' => $dataProvider,
-        'itemOptions' => ['class' => 'item'],
-        'itemView' => function ($model, $key, $index, $widget) {
-            return Html::a(Html::encode($model-><?= $nameAttribute ?>), ['view', <?= $urlParams ?>]);
-        },
-    ]) ?>
-<?php endif; ?>
-
+            ]); ?>
+        <?php else: ?>
+            <?= "<?= " ?>ListView::widget([
+                'dataProvider' => $dataProvider,
+                'itemOptions' => ['class' => 'item'],
+                'itemView' => function ($model, $key, $index, $widget) {
+                    return Html::a(Html::encode($model-><?= $nameAttribute ?>), ['view', <?= $urlParams ?>]);
+                },
+            ]) ?>
+        <?php endif; ?>
+    </div>
 <?= $generator->enablePjax ? "    <?php Pjax::end(); ?>\n" : '' ?>
 
 </div>
-
-<?php echo "<?php " ?> $scr = <<<JS
-  $( document ).ready(function() {
-      var rows = document.getElementsByTagName('table')[0].rows;
-      rows[1].cells[1].innerHTML = '<div class="btn btn-danger" id="delete_selected"><div class="glyphicon glyphicon-trash"></div></div>';
-         $('#delete_selected').click(function (){
-            var keys = $('.grid-view').yiiGridView('getSelectedRows');
-            if(keys.length < 1) {alert('O’chirish uchun maydon tanlanmadi !'); return false }
-                $.ajax({
-                    type: "POST",
-                    url: "/driver/<?=Inflector::camel2id(StringHelper::basename($generator->modelClass))?>/remover",
-                    data: {ids: keys},
-                    success: function(response) {
-                        location.reload();
-                    },
-                    error: function(response) {
-                        console.log(response);
-                    }
-                });
-            }); 
-       }); 
-JS; $this->registerJs($scr); <?php echo "?>" ?>

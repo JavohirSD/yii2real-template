@@ -10,11 +10,8 @@ $( document ).ready(function() {
          $('#thumb').click(function(){ $('#signupform-image, #user-image').trigger('click'); });
          $(document).on('change', '#signupform-image, #user-image', function() {
          thumb.src=URL.createObjectURL(event.target.files[0]);
-         $("#crop_modal").trigger("click");
-         //console.log(document.getElementById('signupform-image').value);
    });
          $("input[type='hidden'][name='SignupForm[image]']").remove();
-        // $('input[name="SignupForm[image]"]').remove();
 });
 JS;
 $this->registerJs($scr);
@@ -31,7 +28,7 @@ $this->registerJs($scr);
             <div class="card">
                 <div class="card-body">
                     <?= $form->field($model, 'username')->textInput()->label('Foydalanuvchi logini') ?>
-                    <?= $form->field($model, 'password_hash')->passwordInput()->label('Foydalanuvchi paroli') ?>
+                    <?= $form->field($model, 'password_hash')->passwordInput(['placeholder'=>'* * * * * * * * * *','value'=>''])->label('Foydalanuvchi paroli') ?>
                     <?= $form->field($model, 'email')->textInput()->label('Email manzilni kiriting') ?>
                     <?= $form->field($model, 'description')->textarea(['rows'=>10])->label('Foydalanuvchi haqida malumot') ?>
                 </div>
@@ -49,14 +46,11 @@ $this->registerJs($scr);
                         9 => 'Aktiv emas',
                     ])->label('Admin holati') ?>
 
-
                     <label class="control-label" for="SignupForm[image]">Rasm tanlash</label>
                     <img id="thumb" src="/uploads/<?php if($model->image!=null) echo $model->image; else echo 'holder.png'; ?>" width="270px" class="thumbr"/>
                     <?= $form->field($model, 'image')->fileInput(['style'=>'display:none'])->label(false) ?>
                     <input type="hidden" name="<?=Yii::$app->controller->action->id=='create'?'SignupForm[crop_image]':'User[crop_image]'?>" id="crop_image" value="">
-                    <button style="display: none" type="button" id="crop_modal" class="btn btn-default" data-toggle="modal" data-target="#modal-xl">
-                        Launch Extra Large Modal
-                    </button>
+
 
                 </div>
             </div>

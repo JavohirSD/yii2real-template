@@ -40,9 +40,24 @@ class ComposerStaticInitd8701901dc056bc963fd809704e08982
             'yii\\bootstrap4\\' => 15,
             'yii\\' => 4,
         ),
+        'u' => 
+        array (
+            'unclead\\multipleinput\\tests\\' => 28,
+            'unclead\\multipleinput\\examples\\' => 31,
+            'unclead\\multipleinput\\' => 22,
+        ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
+        ),
+        'l' => 
+        array (
+            'lubosdz\\captchaExtended\\' => 24,
+        ),
+        'k' => 
+        array (
+            'kartik\\select2\\' => 15,
+            'kartik\\base\\' => 12,
         ),
         'h' => 
         array (
@@ -56,6 +71,10 @@ class ComposerStaticInitd8701901dc056bc963fd809704e08982
         array (
             'codemix\\localeurls\\' => 19,
             'cebe\\markdown\\' => 14,
+        ),
+        'b' => 
+        array (
+            'bizley\\migration\\' => 17,
         ),
         'W' => 
         array (
@@ -161,11 +180,35 @@ class ComposerStaticInitd8701901dc056bc963fd809704e08982
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
         ),
+        'unclead\\multipleinput\\tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/unclead/yii2-multiple-input/tests',
+        ),
+        'unclead\\multipleinput\\examples\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/unclead/yii2-multiple-input/examples',
+        ),
+        'unclead\\multipleinput\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/unclead/yii2-multiple-input/src',
+        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'lubosdz\\captchaExtended\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lubosdz/yii2-captcha-extended',
+        ),
+        'kartik\\select2\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-select2/src',
+        ),
+        'kartik\\base\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base/src',
         ),
         'hail812\\adminlte3\\' => 
         array (
@@ -182,6 +225,10 @@ class ComposerStaticInitd8701901dc056bc963fd809704e08982
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
+        ),
+        'bizley\\migration\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/bizley/migration/src',
         ),
         'Webmozart\\Assert\\' => 
         array (

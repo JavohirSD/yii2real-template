@@ -86,7 +86,7 @@ $this->registerJs($scr);
                     <?= $form->field($model, 'reply_email')->textInput(['maxlength' => true]) ?>
                     <?= $form->field($model, 'author')->textInput(['maxlength' => true]) ?>
 
-                    <label class="control-label" for="Seo[icon]">Rasm1 tanlash</label>
+                    <label class="control-label" for="Seo[icon]">Sayt logotipi (SEO uchun)</label>
                     <img id="thumb2" src="/uploads/<?php if($model->icon!=null) echo $model->icon; else echo 'holder.png'; ?>" width="270px" class="thumbr"/>
                     <?= $form->field($model, 'icon')->fileInput(['style'=>'display:none'])->label(false) ?>
 

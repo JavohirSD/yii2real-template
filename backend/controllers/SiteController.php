@@ -205,6 +205,16 @@ class SiteController extends Controller
         $current2 = include Yii::getAlias('@frontend') . '/messages/ru/yii.php';
         $current3 = include Yii::getAlias('@frontend') . '/messages/en/yii.php';
         $source   = include Yii::getAlias('@frontend') . '/messages/oz/yii.php';
+        $_source  = count($source); // Count of words in source file
+        $error    = false;
+
+        if(
+            count($current1) != $_source ||
+            count($current2) != $_source ||
+            count($current3) != $_source
+          ) {
+            $error = true;
+        }
 
         // sort arrays by key value
          ksort($current1);
@@ -212,45 +222,48 @@ class SiteController extends Controller
          ksort($current3);
          ksort($source);
 
-        if (Yii::$app->request->post()) {
-             $data1 = Yii::$app->request->post()['uz'];
-             $data2 = Yii::$app->request->post()['ru'];
-             $data3 = Yii::$app->request->post()['en'];
+            if (Yii::$app->request->post() && $error===false) {
+                $data1 = Yii::$app->request->post()['uz'];
+                $data2 = Yii::$app->request->post()['ru'];
+                $data3 = Yii::$app->request->post()['en'];
 
-             // Combining array values with source language values
-             $data1 = array_combine($source,$data1);
-             $data2 = array_combine($source,$data2);
-             $data3 = array_combine($source,$data3);
+                // Combining array values with source language values
+                $data1 = array_combine($source, $data1);
+                $data2 = array_combine($source, $data2);
+                $data3 = array_combine($source, $data3);
 
-             // Initial part of yii.php files
-             $text1 = $text2 = $text3 = "<?php"." return [ \n";
+                // Initial part of yii.php files
+                $text1 = $text2 = $text3 = "<?php" . " return [ \n";
 
-             // Appending array keys and values to text
-            foreach ($data1 as $x => $x_value) {
-                $text1 .= "    \"".$x."\" => \"".$x_value."\", \n";
+                // Appending array keys and values to text
+                foreach ($data1 as $x => $x_value) {
+                    $text1 .= "    \"" . $x . "\" => \"" . $x_value . "\", \n";
+                }
+                foreach ($data2 as $x => $x_value) {
+                    $text2 .= "    \"" . $x . "\" => \"" . $x_value . "\", \n";
+                }
+                foreach ($data3 as $x => $x_value) {
+                    $text3 .= "    \"" . $x . "\" => \"" . $x_value . "\", \n";
+                }
+
+                // Writing complete array consisted text to php files
+                file_put_contents(Yii::getAlias('@frontend') . "/messages/uz/yii.php", $text1 . " ];");
+                file_put_contents(Yii::getAlias('@frontend') . "/messages/ru/yii.php", $text2 . " ];");
+                file_put_contents(Yii::getAlias('@frontend') . "/messages/en/yii.php", $text3 . " ];");
+                return $this->render('language', [
+                    'current1' => $data1,
+                    'current2' => $data2,
+                    'current3' => $data3,
+                    'error'    => $error
+                ]);
             }
-            foreach ($data2 as $x => $x_value) {
-                $text2 .= "    \"".$x."\" => \"".$x_value."\", \n";
-            }
-            foreach ($data3 as $x => $x_value) {
-                $text3 .= "    \"".$x."\" => \"".$x_value."\", \n";
-            }
 
-            // Writing complete array consisted text to php files
-            file_put_contents(Yii::getAlias('@frontend') . "/messages/uz/yii.php",$text1." ];");
-            file_put_contents(Yii::getAlias('@frontend') . "/messages/ru/yii.php",$text2." ];");
-            file_put_contents(Yii::getAlias('@frontend') . "/messages/en/yii.php",$text3." ];");
-            return $this->render('language',[
-                'current1' =>  $data1,
-                'current2' =>  $data2,
-                'current3' =>  $data3,
-            ]);
-        }
 
         return $this->render('language',[
              'current1' => $current1,
              'current2' => $current2,
              'current3' => $current3,
+             'error'    => $error
         ]);
     }
 

@@ -79,18 +79,14 @@ class SeoController extends AppController
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
-        $image1 = $model->og_image;
-        $image2 = $model->icon;
+        $image = $model->icon;
 
         if ($model->load(Yii::$app->request->post())) {
-            $model->og_image = UploadedFile::getInstance($model, 'og_image');
             $model->icon = UploadedFile::getInstance($model, 'icon');
             if ($model->upload()) {
-                $model->og_image = md5($model->og_image->baseName) . '.' . $model->og_image->extension;
-                $model->icon     = md5($model->icon->baseName) . '.' . $model->icon->extension;
+                $image = md5($model->icon->baseName) . '.' . $model->icon->extension;
             }
-            $model->og_image = $image1;
-            $model->icon     = $image2;
+            $model->icon = $image;
             $model->save();
             return $this->redirect(['view', 'id' => $model->id]);
         } else {

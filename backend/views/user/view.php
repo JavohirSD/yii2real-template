@@ -14,9 +14,10 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="user-view">
 
     <p>
-        <?= Html::a('Yangi yaratish', ['create'], ['class' => 'btn btn-success']) ?>
-        <?= Html::a('Tahrirlash', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('O\'chirish', ['delete', 'id' => $model->id], [
+        <?= Html::a('<i class="fa fa-fw fa-home"></i>', ['index'], ['class' => 'btn btn-info']) ?>
+        <?= Html::a('<i class="fa fa-fw fa-plus"></i>', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('<i class="fa fa-edit"></i>', ['update', 'id' => $model->id], ['class' => 'btn btn-primary ']) ?>
+        <?= Html::a('<i class="fa fa-trash"></i>', ['delete', 'id' => $model->id], [
             'class' => 'btn btn-danger',
             'data' => [
                 'confirm' => 'Are you sure you want to delete this item?',
@@ -35,10 +36,19 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'email:email',
             'status',
-            'created_at',
-            'updated_at',
-
-        ],
+            [
+                'attribute' => 'created_at',
+                'value' => function($model){
+                    return date("d.m.Y H:i:s",$model->created_at);
+                }
+            ],
+            [
+                'attribute' => 'updated_at',
+                'value' => function($model){
+                    return date("d.m.Y H:i:s",$model->updated_at);
+                }
+            ]
+        ]
     ]) ?>
 
 </div>

@@ -138,7 +138,7 @@ class <?= $controllerClass ?> extends AppController
         <?php } else { ?>
          $model = $this->findModel(<?= $actionParams ?>);
          $file_path = Yii::getAlias('@frontend') . '/web/uploads/' . $model->image;
-         if(file_exists($file_path)) {
+         if($model->image) {
              if(unlink($file_path)) {
                  $model->delete();
               }
@@ -159,11 +159,10 @@ class <?= $controllerClass ?> extends AppController
             <?php } else { ?>
               $model = $this->findModel($ids[$i]);
               $file_path = Yii::getAlias('@frontend') . '/web/uploads/' . $model->image;
-              if(file_exists($file_path)) {
-                  if(unlink($file_path)) {
-                       $model->delete();
-                     }
+                if($model->image && file_exists($file_path)) {
+                   unlink($file_path);
                  }
+                   $model->delete();
             <?php } ?>
              } return 'success';
          } return 'error';
@@ -177,10 +176,10 @@ class <?= $controllerClass ?> extends AppController
         $id = Yii::$app->request->post()['id'];
         $model = $this->findModel($id);
         $file_path = Yii::getAlias('@frontend') . '/web/uploads/' . $model->image;
-            if(file_exists($file_path)) {
-                if(unlink($file_path)) {
-                     $model->delete();
+            if($model->image && file_exists($file_path)) {
+                unlink($file_path)
              }
+             $model->delete();
         }
         return $model->save();
     }

@@ -24,14 +24,15 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="<?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>-view">
 
-    
 
     <p>
-        <?= "<?= " ?>Html::a(<?= $generator->generateString('Update') ?>, ['update', <?= $urlParams ?>], ['class' => 'btn btn-primary']) ?>
-        <?= "<?= " ?>Html::a(<?= $generator->generateString('Delete') ?>, ['delete', <?= $urlParams ?>], [
+        <?= "<?= " ?>Html::a(<?= $generator->generateString("<i class='fa fa-fw fa-home'></i>") ?>, ['index'], ['class' => 'btn btn-info']) ?>
+        <?= "<?= " ?>Html::a(<?= $generator->generateString("<i class='fa fa-fw fa-plus'></i>") ?>, ['create',], ['class' => 'btn btn-success']) ?>
+        <?= "<?= " ?>Html::a(<?= $generator->generateString("<i class='fa fa-edit'></i>") ?>, ['update', <?= $urlParams ?>], ['class' => 'btn btn-primary']) ?>
+        <?= "<?= " ?>Html::a(<?= $generator->generateString("<i class='fa fa-trash'></i>") ?>, ['delete', <?= $urlParams ?>], [
             'class' => 'btn btn-danger',
             'data' => [
-                'confirm' => <?= $generator->generateString('Are you sure you want to delete this item?') ?>,
+                'confirm' => <?= $generator->generateString('Belgilangan ma’lumotni o’chirmoqchimisiz ?') ?>,
                 'method' => 'post',
             ],
         ]) ?>
@@ -39,6 +40,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?= "<?= " ?>DetailView::widget([
         'model' => $model,
+        'formatter' => ['class' => 'yii\i18n\Formatter','nullDisplay' => ''],
         'attributes' => [
             <?php if($generator->hasImage()){ ?>
             [

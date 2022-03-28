@@ -101,7 +101,7 @@ class News extends \yii\db\ActiveRecord
     {
         if ($this->validate() && $this->image != null) {
             // Generate random name and path to prevent replace existing file
-            $file_path = '../../frontend/web/uploads/';
+            $file_path = Yii::getAlias('@frontend') . '/web/uploads/';
             $file_name = date('Ymdhis').rand(10000,99999). '.' . $this->image->extension;
 
             // Moving uploaded file to server directory

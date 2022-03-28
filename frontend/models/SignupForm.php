@@ -39,8 +39,8 @@ class SignupForm extends Model
 
             [['description','password_hash','crop_image'],'safe'],
 
-            ['password', 'required'],
-            ['password', 'string', 'min' => Yii::$app->params['user.passwordMinLength']],
+            [['password','password_hash'], 'required'],
+            [['password','password_hash'], 'string', 'min' => 6],
             [['image'], 'file',  'extensions' => ['png', 'jpg','jpeg','bmp','svg'], 'checkExtensionByMimeType'=>true,'maxSize'=>1024*1024*8],
         ];
     }

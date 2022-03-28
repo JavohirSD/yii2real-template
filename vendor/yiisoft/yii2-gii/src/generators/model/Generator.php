@@ -421,15 +421,22 @@ class Generator extends \yii\gii\Generator
         $rules = [];
         $driverName = $this->getDbDriverName();
 
+
+        $index = true;
         foreach ($types as $type => $columns) {
             if ($driverName === 'pgsql' && $type === 'integer') {
                 $rules[] = "[['" . implode("', '", $columns) . "'], 'default', 'value' => null]";
             }
-            if($type === 'safe'){
-                $rules[] = "[['" . implode("', '", $columns) . "'], 'default', 'value'=> date('Y-m-d H:i:s')]";
-            } else {
-                $rules[] = "[['" . implode("', '", $columns) . "'], '$type']";
+
+            if (($key = array_search('updated_date', $columns)) !== false) {
+                unset($columns[$key]);
+                if( $index == true) {
+                    $rules[] = "[['updated_date'], 'default', 'value'=> date('Y-m-d H:i:s')]";
+                    $index = false;
+                }
             }
+
+            $rules[] = "[['" . implode("', '", $columns) . "'], '$type']";
         }
 
         foreach ($lengths as $length => $columns) {

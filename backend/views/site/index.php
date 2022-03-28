@@ -1,0 +1,1 @@
+path changed to {backend/views/adminlte/site/index.php}

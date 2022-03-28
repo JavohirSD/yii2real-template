@@ -1,6 +1,8 @@
 <?php
+
+use yii\bootstrap4\ActiveForm;
 use yii\helpers\Html;
-use yii\widgets\ActiveForm;
+
 /* @var $this yii\web\View */
 /* @var $model backend\models\News */
 /* @var $form yii\widgets\ActiveForm */
@@ -63,6 +65,8 @@ $this->registerJsFile('/driver/assets/425ec420/tinymce.js',['depends' => [\yii\w
                         0 => 'Aktiv emas',
                     ]) ?>
 
+                    <?= $form->field($model, 'created_date')->textInput(['maxlength' => true]) ?>
+
                     <!-- LOAD CATEGORIES FROM DATABASE USING ArrayHelper() ---->
                     <?= $form->field($model, 'category_id')->dropDownList([
                         0 => 'Texnologiya',
@@ -86,3 +90,4 @@ $this->registerJsFile('/driver/assets/425ec420/tinymce.js',['depends' => [\yii\w
     </div>
     <?php ActiveForm::end(); ?>
 </div>
+ 

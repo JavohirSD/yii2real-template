@@ -1,10 +1,9 @@
-<?php return [
-    "Blogs" => "Maqolalar",
+<?php return [ 
     "About us" => "Biz haqimizda", 
     "All" => "Barchasi", 
     "Applicants" => "Abiturientlarga", 
     "Blog" => "Blog", 
-
+    "Blogs" => "Maqolalar", 
     "Branches" => "Filiallar", 
     "Choose the city" => "Shaharni tanlash", 
     "Choose the country" => "Davlatni tanlash", 

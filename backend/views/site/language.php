@@ -7,6 +7,11 @@ $this->title = "Sayt lug`ati:"
 
 <div class="row">
     <div class="col-md-9">
+        <?php if($error === true) { ?>
+        <div class="alert alert-danger">
+            <strong>Xatolik!</strong> Tarjima qilish imkoniyati mavjud emas.
+        </div>
+        <?php } ?>
         <div class="card card-primary card-tabs">
             <div class="card-header p-0 pt-1">
                 <ul class="nav nav-tabs" id="custom-tabs-two-tab" role="tablist">

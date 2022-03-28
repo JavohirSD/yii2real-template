@@ -1,0 +1,1 @@
+{"template":"default","enableI18N":"0","messageCategory":"app","ns":"backend\\modules\\orderbot\\models","db":"db","baseClass":"yii\\db\\ActiveRecord","generateRelations":"all","generateLabelsFromComments":"0","queryNs":"backend\\modules\\orderbot\\models\\query","queryBaseClass":"yii\\db\\ActiveQuery","useTablePrefix":"0","generateQuery":"1"}

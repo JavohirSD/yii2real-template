@@ -7,6 +7,7 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
+use yii\helpers\Url;
 
 $this->title = 'Contact';
 $this->params['breadcrumbs'][] = $this->title;
@@ -30,9 +31,19 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 <?= $form->field($model, 'body')->textarea(['rows' => 6]) ?>
 
-                <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [
-                    'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
-                ]) ?>
+            <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [
+                'captchaAction' => Url::to('/site/captcha'),
+                'template' => '<div class="text-center">{image}</div><br/> {input} ',
+                'imageOptions' => [
+                    'class' => 'img-fluid',
+                    'style' => 'cursor:pointer; width: 100%',
+                    'title' => Yii::t('app', 'Click to refresh the code'),
+                ],
+                'options' => [
+                    'placeholder' => Yii::t('app', 'Verification code'),
+                    'class' => 'form-control',
+                ],
+            ])->label(false) ?>
 
                 <div class="form-group">
                     <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>

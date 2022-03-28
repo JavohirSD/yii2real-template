@@ -12,13 +12,8 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="visitors-index">
 
-
-    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
-    <p>
-        <?= Html::a('Yangi admin qo\'shish', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
-
-    <?= GridView::widget([
+    <div class="table-responsive">
+        <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'columns' => [
@@ -113,6 +108,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         ],
     ]); ?>
+    </div>
 </div>
 <?php
 $scr = <<<JS

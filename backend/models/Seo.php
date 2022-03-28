@@ -50,7 +50,7 @@ class Seo extends \yii\db\ActiveRecord
             [['status'], 'integer'],
             [['created_date'], 'safe'],
             [['title_uz', 'title_ru', 'title_en', 'og_type', 'author', 'reply_email', 'og_title_uz', 'og_title_ru', 'og_title_en'], 'string', 'max' => 255],
-            [['icon','og_image'], 'file',  'extensions' => ['png', 'jpg','jpeg','bmp'], 'checkExtensionByMimeType'=>true,'maxSize'=>1024*1024*8],
+            [['icon','og_image'], 'file',  'extensions' => ['png', 'jpg','jpeg','bmp','svg'], 'checkExtensionByMimeType'=>true,'maxSize'=>1024*1024*2],
 
         ];
     }
@@ -72,7 +72,7 @@ class Seo extends \yii\db\ActiveRecord
             'og_image' => 'Sayt logotipi (Ijtimoiy tarmoq uchun)',
             'og_type'  => 'Sayt turi/kategoriyasi',
             'keywords' => 'Kalit so`zlar',
-            'author'   => 'Sayt muallifi(Buyurtmachi)',
+            'author'   => 'Sayt muallifi (Buyurtmachi)',
             'reply_email'   => 'Email manzil',
             'google_verify' => 'Google Verify tokeni',
             'yandex_verify' => 'Yandex Verify tokeni',
@@ -97,11 +97,9 @@ class Seo extends \yii\db\ActiveRecord
 
     public function upload()
     {
-        if ($this->validate(false)) {
-            if($this->og_image!=null)
-                 $this->og_image->saveAs('../../frontend/web/uploads/' . md5($this->og_image->baseName). '.' . $this->og_image->extension);
-            if($this->icon!=null)
-                $this->icon->saveAs('../../frontend/web/uploads/' . md5($this->icon->baseName). '.' . $this->icon->extension);
+        if ($this->validate() && $this->icon != null) {
+              $file_path = Yii::getAlias('@frontend') . '/web/uploads/';
+              $this->icon->saveAs($file_path . md5($this->icon->baseName). '.' . $this->icon->extension);
             return true;
         } else {
             return false;

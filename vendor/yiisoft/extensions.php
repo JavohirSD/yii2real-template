@@ -93,4 +93,51 @@ return array (
       '@yii/imagine' => $vendorDir . '/yiisoft/yii2-imagine/src',
     ),
   ),
+  'lubosdz/yii2-captcha-extended' => 
+  array (
+    'name' => 'lubosdz/yii2-captcha-extended',
+    'version' => '1.0.4.0',
+    'alias' => 
+    array (
+      '@lubosdz/captchaExtended' => $vendorDir . '/lubosdz/yii2-captcha-extended',
+    ),
+  ),
+  'unclead/yii2-multiple-input' => 
+  array (
+    'name' => 'unclead/yii2-multiple-input',
+    'version' => '2.26.2.0',
+    'alias' => 
+    array (
+      '@unclead/multipleinput/examples' => $vendorDir . '/unclead/yii2-multiple-input/examples',
+      '@unclead/multipleinput' => $vendorDir . '/unclead/yii2-multiple-input/src',
+      '@unclead/multipleinput/tests' => $vendorDir . '/unclead/yii2-multiple-input/tests',
+    ),
+  ),
+  'kartik-v/yii2-krajee-base' => 
+  array (
+    'name' => 'kartik-v/yii2-krajee-base',
+    'version' => '3.0.2.0',
+    'alias' => 
+    array (
+      '@kartik/base' => $vendorDir . '/kartik-v/yii2-krajee-base/src',
+    ),
+  ),
+  'kartik-v/yii2-widget-select2' => 
+  array (
+    'name' => 'kartik-v/yii2-widget-select2',
+    'version' => 'dev-master',
+    'alias' => 
+    array (
+      '@kartik/select2' => $vendorDir . '/kartik-v/yii2-widget-select2/src',
+    ),
+  ),
+  'bizley/migration' => 
+  array (
+    'name' => 'bizley/migration',
+    'version' => '4.3.1.0',
+    'alias' => 
+    array (
+      '@bizley/migration' => $vendorDir . '/bizley/migration/src',
+    ),
+  ),
 );

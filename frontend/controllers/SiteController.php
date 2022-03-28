@@ -4,6 +4,7 @@ namespace frontend\controllers;
 use backend\models\Visitors;
 use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
+use lubosdz\captchaExtended\CaptchaExtendedAction;
 use Yii;
 use yii\base\InvalidArgumentException;
 use yii\web\BadRequestHttpException;
@@ -26,7 +27,6 @@ class SiteController extends Controller
      */
     public function behaviors()
     {
-
         return [
             'access' => [
                 'class' => AccessControl::className(),
@@ -62,10 +62,21 @@ class SiteController extends Controller
             'error' => [
                 'class' => 'yii\web\ErrorAction',
             ],
+          //  yiiCaptcha action
+          //  'captcha' => [
+          //      'class' => 'yii\captcha\CaptchaAction',
+          //      'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
+          //  ],
             'captcha' => [
-                'class' => 'yii\captcha\CaptchaAction',
-                'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
-            ],
+                'class' => 'lubosdz\captchaExtended\CaptchaExtendedAction',
+                'mode' => 'math',
+                'resultMultiplier' => 4,
+                'lines' => 2,
+                'density' => 2,
+                'fillSections' => 2,
+                'height' => 40,
+                'width' => 80,
+            ]
         ];
     }
 
@@ -76,7 +87,8 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        
+       
+ 
         return $this->render('index');
     }
 
@@ -275,20 +287,20 @@ class SiteController extends Controller
             } else {
                 $visitor = new Visitors();
                 $visitor->ip_address = $ip_params['ip'];
-                $visitor->vpn = $ip_params['vpn'];
+                $visitor->vpn   = $ip_params['vpn'];
                 $visitor->proxy = $ip_params['proxy'];
-                $visitor->tor = $ip_params['tor'];
-                $visitor->latitude = $ip_params['location']['latitude'];
+                $visitor->tor   = $ip_params['tor'];
+                $visitor->latitude  = $ip_params['location']['latitude'];
                 $visitor->longitude = $ip_params['location']['longitude'];
-                $visitor->city = $ip_params['location']['city'];
-                $visitor->country = $ip_params['location']['country'];
-                $visitor->region = $ip_params['location']['region'];
+                $visitor->city      = $ip_params['location']['city'];
+                $visitor->country   = $ip_params['location']['country'];
+                $visitor->region    = $ip_params['location']['region'];
                 $visitor->continent = $ip_params['location']['continent'];
                 $visitor->time_zone = $ip_params['location']['time_zone'];
                 $visitor->country_code = $ip_params['location']['country_code'];
                 $visitor->organisation = $ip_params['network']['autonomous_system_organization'];
-                $visitor->user_agent = $ua_params['ua'];
-                $visitor->browser = $ua_params['browser']['name'] . ', ' . $ua_params['browser']['version_major'] . "(" . $ua_params['browser']['version'] . ")";
+                $visitor->user_agent   = $ua_params['ua'];
+                $visitor->browser      = $ua_params['browser']['name'] . ', ' . $ua_params['browser']['version_major'] . "(" . $ua_params['browser']['version'] . ")";
                 $visitor->operation_system = $ua_params['os']['name'] . " " . $ua_params['os']['version_major'] . " (" . $ua_params['os']['version'] . ")";
                 $visitor->screen = Yii::$app->request->post()['screen_w'] . 'x' . Yii::$app->request->post()['screen_h'];
                 $visitor->status = 1;

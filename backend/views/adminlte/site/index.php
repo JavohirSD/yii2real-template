@@ -2,8 +2,6 @@
 use yii\helpers\Url;
 $this->title = '';
 //$this->params['breadcrumbs'] = [['label' => $this->title]];
-
-
 ?>
 <section class="content">
     <div class="container-fluid">
@@ -18,7 +16,7 @@ $this->title = '';
             <div class="icon">
                 <i class="fa fa-shopping-bag"></i>
             </div>
-            <a href="/driver/products" class="small-box-footer">Batafsil... <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="<?=Url::base()?>/products" class="small-box-footer">Batafsil... <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
     <!-- ./col -->
@@ -33,7 +31,7 @@ $this->title = '';
             <div class="icon">
                 <i class="fas fa-parachute-box"></i>
             </div>
-            <a href="/driver/orders" class="small-box-footer">Batafsil... <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="<?=Url::base()?>/orders" class="small-box-footer">Batafsil... <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
     <!-- ./col -->
@@ -48,7 +46,7 @@ $this->title = '';
             <div class="icon">
                 <i class="fas fa-comments"></i>
             </div>
-            <a href="/driver/feedbacks" class="small-box-footer">Batafsil... <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="<?=Url::base()?>/feedbacks" class="small-box-footer">Batafsil... <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
     <!-- ./col -->
@@ -63,7 +61,7 @@ $this->title = '';
             <div class="icon">
                 <i class="fas fa-eye"></i>
             </div>
-            <a href="/driver/visitors" class="small-box-footer">Batafsil... <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="<?=Url::base()?>/visitors" class="small-box-footer">Batafsil... <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
     <!-- ./col -->
@@ -74,7 +72,7 @@ $this->title = '';
                     <div class="card card-primary card-outline">
                         <div class="card-body box-profile">
                             <div class="text-center">
-                                <img class="profile-user-img img-fluid img-circle" src="/uploads/user.jpg" alt="User profile picture">
+                                <img class="profile-user-img img-fluid img-circle" src="/uploads/<?=\common\models\User::findOne(Yii::$app->user->id)['image']?>" alt="User profile picture">
                             </div>
 
                             <h3 class="profile-username text-center"><?=\common\models\User::findOne(Yii::$app->user->id)['username']?></h3>
@@ -93,7 +91,7 @@ $this->title = '';
                                 </li>
                             </ul>
 
-                            <a href="/driver/user/update?id=<?=Yii::$app->user->id?>" class="btn btn-primary btn-block"><div class="fa fa-user-edit"></div> <b> Tahrirlash</b></a>
+                            <a href="<?=Url::base()?>/user/update?id=<?=Yii::$app->user->id?>" class="btn btn-primary btn-block"><div class="fa fa-user-edit"></div> <b> Tahrirlash</b></a>
                         </div>
                         <!-- /.card-body -->
                     </div>
@@ -204,7 +202,7 @@ $scr = <<<JS
          $.ajax
         ({
             type: "GET",
-            url: "driver/visitors/getstat",
+            url: "<?=Url::base()?>/visitors/getstat",
             data: {
             },
             success: function (html) {
